@@ -1,0 +1,1526 @@
+{
+  "type": "FeatureCollection",
+  "name": "transit_stops",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.731979,
+          30.278968
+        ]
+      },
+      "properties": {
+        "stop_id": "T000",
+        "stop_name": "Stop 1",
+        "route_type": "bus",
+        "daily_ridership": 831,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746571,
+          30.262692
+        ]
+      },
+      "properties": {
+        "stop_id": "T001",
+        "stop_name": "Stop 2",
+        "route_type": "shuttle",
+        "daily_ridership": 4337,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.748664,
+          30.256402
+        ]
+      },
+      "properties": {
+        "stop_id": "T002",
+        "stop_name": "Stop 3",
+        "route_type": "rail",
+        "daily_ridership": 3423,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.632
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.715799,
+          30.255842
+        ]
+      },
+      "properties": {
+        "stop_id": "T003",
+        "stop_name": "Stop 4",
+        "route_type": "bus",
+        "daily_ridership": 2246,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.567
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.784834,
+          30.268341
+        ]
+      },
+      "properties": {
+        "stop_id": "T004",
+        "stop_name": "Stop 5",
+        "route_type": "rail",
+        "daily_ridership": 1981,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.362
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.783169,
+          30.295339
+        ]
+      },
+      "properties": {
+        "stop_id": "T005",
+        "stop_name": "Stop 6",
+        "route_type": "bus",
+        "daily_ridership": 3537,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.164
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.715031,
+          30.242748
+        ]
+      },
+      "properties": {
+        "stop_id": "T006",
+        "stop_name": "Stop 7",
+        "route_type": "bus",
+        "daily_ridership": 1411,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.457
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.760761,
+          30.284612
+        ]
+      },
+      "properties": {
+        "stop_id": "T007",
+        "stop_name": "Stop 8",
+        "route_type": "shuttle",
+        "daily_ridership": 1195,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.499
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74952,
+          30.249008
+        ]
+      },
+      "properties": {
+        "stop_id": "T008",
+        "stop_name": "Stop 9",
+        "route_type": "shuttle",
+        "daily_ridership": 2460,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.658
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.701336,
+          30.249561
+        ]
+      },
+      "properties": {
+        "stop_id": "T009",
+        "stop_name": "Stop 10",
+        "route_type": "bus_rapid",
+        "daily_ridership": 1209,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.288
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.781795,
+          30.252744
+        ]
+      },
+      "properties": {
+        "stop_id": "T010",
+        "stop_name": "Stop 11",
+        "route_type": "rail",
+        "daily_ridership": 4304,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.313
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.708628,
+          30.250789
+        ]
+      },
+      "properties": {
+        "stop_id": "T011",
+        "stop_name": "Stop 12",
+        "route_type": "bus_rapid",
+        "daily_ridership": 1395,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.436
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745357,
+          30.268262
+        ]
+      },
+      "properties": {
+        "stop_id": "T012",
+        "stop_name": "Stop 13",
+        "route_type": "bus_rapid",
+        "daily_ridership": 3904,
+        "has_shade_structure": true,
+        "has_cooling_station": true,
+        "heat_exposure_score": 0.878
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.709151,
+          30.279308
+        ]
+      },
+      "properties": {
+        "stop_id": "T013",
+        "stop_name": "Stop 14",
+        "route_type": "rail",
+        "daily_ridership": 825,
+        "has_shade_structure": false,
+        "has_cooling_station": true,
+        "heat_exposure_score": 0.432
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.741167,
+          30.258822
+        ]
+      },
+      "properties": {
+        "stop_id": "T014",
+        "stop_name": "Stop 15",
+        "route_type": "bus_rapid",
+        "daily_ridership": 2875,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.791
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.784104,
+          30.28407
+        ]
+      },
+      "properties": {
+        "stop_id": "T015",
+        "stop_name": "Stop 16",
+        "route_type": "rail",
+        "daily_ridership": 3058,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.321
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.734649,
+          30.256708
+        ]
+      },
+      "properties": {
+        "stop_id": "T016",
+        "stop_name": "Stop 17",
+        "route_type": "bus_rapid",
+        "daily_ridership": 684,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.725
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.715893,
+          30.278561
+        ]
+      },
+      "properties": {
+        "stop_id": "T017",
+        "stop_name": "Stop 18",
+        "route_type": "shuttle",
+        "daily_ridership": 2754,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.768798,
+          30.284062
+        ]
+      },
+      "properties": {
+        "stop_id": "T018",
+        "stop_name": "Stop 19",
+        "route_type": "shuttle",
+        "daily_ridership": 1764,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.565
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.720196,
+          30.297799
+        ]
+      },
+      "properties": {
+        "stop_id": "T019",
+        "stop_name": "Stop 20",
+        "route_type": "bus_rapid",
+        "daily_ridership": 3945,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.042
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.701172,
+          30.249223
+        ]
+      },
+      "properties": {
+        "stop_id": "T020",
+        "stop_name": "Stop 21",
+        "route_type": "shuttle",
+        "daily_ridership": 3534,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.284
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.722908,
+          30.286415
+        ]
+      },
+      "properties": {
+        "stop_id": "T021",
+        "stop_name": "Stop 22",
+        "route_type": "shuttle",
+        "daily_ridership": 3936,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.636
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.758298,
+          30.275375
+        ]
+      },
+      "properties": {
+        "stop_id": "T022",
+        "stop_name": "Stop 23",
+        "route_type": "bus_rapid",
+        "daily_ridership": 1410,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.723
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.768495,
+          30.281095
+        ]
+      },
+      "properties": {
+        "stop_id": "T023",
+        "stop_name": "Stop 24",
+        "route_type": "rail",
+        "daily_ridership": 1035,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.347
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.735417,
+          30.251755
+        ]
+      },
+      "properties": {
+        "stop_id": "T024",
+        "stop_name": "Stop 25",
+        "route_type": "rail",
+        "daily_ridership": 3868,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.541
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.773831,
+          30.237836
+        ]
+      },
+      "properties": {
+        "stop_id": "T025",
+        "stop_name": "Stop 26",
+        "route_type": "bus_rapid",
+        "daily_ridership": 3183,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.463
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.764201,
+          30.308037
+        ]
+      },
+      "properties": {
+        "stop_id": "T026",
+        "stop_name": "Stop 27",
+        "route_type": "rail",
+        "daily_ridership": 4359,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.768449,
+          30.302202
+        ]
+      },
+      "properties": {
+        "stop_id": "T027",
+        "stop_name": "Stop 28",
+        "route_type": "bus",
+        "daily_ridership": 2286,
+        "has_shade_structure": false,
+        "has_cooling_station": true,
+        "heat_exposure_score": 0.285
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.717438,
+          30.263697
+        ]
+      },
+      "properties": {
+        "stop_id": "T028",
+        "stop_name": "Stop 29",
+        "route_type": "rail",
+        "daily_ridership": 2296,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.779759,
+          30.294479
+        ]
+      },
+      "properties": {
+        "stop_id": "T029",
+        "stop_name": "Stop 30",
+        "route_type": "shuttle",
+        "daily_ridership": 4066,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.777509,
+          30.267188
+        ]
+      },
+      "properties": {
+        "stop_id": "T030",
+        "stop_name": "Stop 31",
+        "route_type": "bus",
+        "daily_ridership": 362,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.325
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.753591,
+          30.264607
+        ]
+      },
+      "properties": {
+        "stop_id": "T031",
+        "stop_name": "Stop 32",
+        "route_type": "bus",
+        "daily_ridership": 3487,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.572
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.726587,
+          30.282498
+        ]
+      },
+      "properties": {
+        "stop_id": "T032",
+        "stop_name": "Stop 33",
+        "route_type": "rail",
+        "daily_ridership": 848,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.775286,
+          30.248335
+        ]
+      },
+      "properties": {
+        "stop_id": "T033",
+        "stop_name": "Stop 34",
+        "route_type": "rail",
+        "daily_ridership": 1436,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.657
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.768647,
+          30.23086
+        ]
+      },
+      "properties": {
+        "stop_id": "T034",
+        "stop_name": "Stop 35",
+        "route_type": "shuttle",
+        "daily_ridership": 3460,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.305
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.767259,
+          30.27784
+        ]
+      },
+      "properties": {
+        "stop_id": "T035",
+        "stop_name": "Stop 36",
+        "route_type": "bus",
+        "daily_ridership": 1463,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.501
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.731255,
+          30.265545
+        ]
+      },
+      "properties": {
+        "stop_id": "T036",
+        "stop_name": "Stop 37",
+        "route_type": "bus_rapid",
+        "daily_ridership": 76,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.629
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.733877,
+          30.230199
+        ]
+      },
+      "properties": {
+        "stop_id": "T037",
+        "stop_name": "Stop 38",
+        "route_type": "shuttle",
+        "daily_ridership": 772,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.356
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.722355,
+          30.295214
+        ]
+      },
+      "properties": {
+        "stop_id": "T038",
+        "stop_name": "Stop 39",
+        "route_type": "bus",
+        "daily_ridership": 1437,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72441,
+          30.296013
+        ]
+      },
+      "properties": {
+        "stop_id": "T039",
+        "stop_name": "Stop 40",
+        "route_type": "bus_rapid",
+        "daily_ridership": 1137,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.546
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.731813,
+          30.256909
+        ]
+      },
+      "properties": {
+        "stop_id": "T040",
+        "stop_name": "Stop 41",
+        "route_type": "rail",
+        "daily_ridership": 3441,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.736
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.728027,
+          30.273617
+        ]
+      },
+      "properties": {
+        "stop_id": "T041",
+        "stop_name": "Stop 42",
+        "route_type": "rail",
+        "daily_ridership": 807,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.869
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.752352,
+          30.252378
+        ]
+      },
+      "properties": {
+        "stop_id": "T042",
+        "stop_name": "Stop 43",
+        "route_type": "shuttle",
+        "daily_ridership": 1446,
+        "has_shade_structure": false,
+        "has_cooling_station": true,
+        "heat_exposure_score": 0.673
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746075,
+          30.256628
+        ]
+      },
+      "properties": {
+        "stop_id": "T043",
+        "stop_name": "Stop 44",
+        "route_type": "rail",
+        "daily_ridership": 2414,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.577
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.768979,
+          30.259884
+        ]
+      },
+      "properties": {
+        "stop_id": "T044",
+        "stop_name": "Stop 45",
+        "route_type": "rail",
+        "daily_ridership": 793,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.559
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.695105,
+          30.264371
+        ]
+      },
+      "properties": {
+        "stop_id": "T045",
+        "stop_name": "Stop 46",
+        "route_type": "bus_rapid",
+        "daily_ridership": 3942,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.419
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.753823,
+          30.251942
+        ]
+      },
+      "properties": {
+        "stop_id": "T046",
+        "stop_name": "Stop 47",
+        "route_type": "bus",
+        "daily_ridership": 2690,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.435
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.741953,
+          30.287143
+        ]
+      },
+      "properties": {
+        "stop_id": "T047",
+        "stop_name": "Stop 48",
+        "route_type": "bus",
+        "daily_ridership": 1582,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.402
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.719284,
+          30.259608
+        ]
+      },
+      "properties": {
+        "stop_id": "T048",
+        "stop_name": "Stop 49",
+        "route_type": "bus",
+        "daily_ridership": 3646,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.405
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.734352,
+          30.24975
+        ]
+      },
+      "properties": {
+        "stop_id": "T049",
+        "stop_name": "Stop 50",
+        "route_type": "rail",
+        "daily_ridership": 3107,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.631
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740682,
+          30.248221
+        ]
+      },
+      "properties": {
+        "stop_id": "T050",
+        "stop_name": "Stop 51",
+        "route_type": "bus_rapid",
+        "daily_ridership": 4203,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.757926,
+          30.243011
+        ]
+      },
+      "properties": {
+        "stop_id": "T051",
+        "stop_name": "Stop 52",
+        "route_type": "bus_rapid",
+        "daily_ridership": 2512,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.538
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.753751,
+          30.308642
+        ]
+      },
+      "properties": {
+        "stop_id": "T052",
+        "stop_name": "Stop 53",
+        "route_type": "bus_rapid",
+        "daily_ridership": 1114,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.337
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.720688,
+          30.297534
+        ]
+      },
+      "properties": {
+        "stop_id": "T053",
+        "stop_name": "Stop 54",
+        "route_type": "rail",
+        "daily_ridership": 3807,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.734531,
+          30.237926
+        ]
+      },
+      "properties": {
+        "stop_id": "T054",
+        "stop_name": "Stop 55",
+        "route_type": "bus_rapid",
+        "daily_ridership": 2518,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.559
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.728258,
+          30.236769
+        ]
+      },
+      "properties": {
+        "stop_id": "T055",
+        "stop_name": "Stop 56",
+        "route_type": "rail",
+        "daily_ridership": 90,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.721913,
+          30.254813
+        ]
+      },
+      "properties": {
+        "stop_id": "T056",
+        "stop_name": "Stop 57",
+        "route_type": "bus_rapid",
+        "daily_ridership": 3919,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.646
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.749941,
+          30.267686
+        ]
+      },
+      "properties": {
+        "stop_id": "T057",
+        "stop_name": "Stop 58",
+        "route_type": "bus_rapid",
+        "daily_ridership": 3325,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76881,
+          30.296977
+        ]
+      },
+      "properties": {
+        "stop_id": "T058",
+        "stop_name": "Stop 59",
+        "route_type": "shuttle",
+        "daily_ridership": 4940,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.512
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.774401,
+          30.265572
+        ]
+      },
+      "properties": {
+        "stop_id": "T059",
+        "stop_name": "Stop 60",
+        "route_type": "bus_rapid",
+        "daily_ridership": 1976,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.559
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.70662,
+          30.247246
+        ]
+      },
+      "properties": {
+        "stop_id": "T060",
+        "stop_name": "Stop 61",
+        "route_type": "shuttle",
+        "daily_ridership": 682,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.435
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.719986,
+          30.272161
+        ]
+      },
+      "properties": {
+        "stop_id": "T061",
+        "stop_name": "Stop 62",
+        "route_type": "bus_rapid",
+        "daily_ridership": 3537,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.709912,
+          30.255623
+        ]
+      },
+      "properties": {
+        "stop_id": "T062",
+        "stop_name": "Stop 63",
+        "route_type": "rail",
+        "daily_ridership": 3504,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.716856,
+          30.295886
+        ]
+      },
+      "properties": {
+        "stop_id": "T063",
+        "stop_name": "Stop 64",
+        "route_type": "bus",
+        "daily_ridership": 3363,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.479
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.741718,
+          30.282707
+        ]
+      },
+      "properties": {
+        "stop_id": "T064",
+        "stop_name": "Stop 65",
+        "route_type": "shuttle",
+        "daily_ridership": 3774,
+        "has_shade_structure": true,
+        "has_cooling_station": true,
+        "heat_exposure_score": 0.525
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740852,
+          30.263535
+        ]
+      },
+      "properties": {
+        "stop_id": "T065",
+        "stop_name": "Stop 66",
+        "route_type": "bus",
+        "daily_ridership": 4994,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.607
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.757902,
+          30.286853
+        ]
+      },
+      "properties": {
+        "stop_id": "T066",
+        "stop_name": "Stop 67",
+        "route_type": "rail",
+        "daily_ridership": 4432,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.597
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72473,
+          30.236508
+        ]
+      },
+      "properties": {
+        "stop_id": "T067",
+        "stop_name": "Stop 68",
+        "route_type": "bus",
+        "daily_ridership": 1281,
+        "has_shade_structure": false,
+        "has_cooling_station": true,
+        "heat_exposure_score": 0.464
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75506,
+          30.29781
+        ]
+      },
+      "properties": {
+        "stop_id": "T068",
+        "stop_name": "Stop 69",
+        "route_type": "shuttle",
+        "daily_ridership": 3612,
+        "has_shade_structure": false,
+        "has_cooling_station": true,
+        "heat_exposure_score": 0.428
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74177,
+          30.249612
+        ]
+      },
+      "properties": {
+        "stop_id": "T069",
+        "stop_name": "Stop 70",
+        "route_type": "rail",
+        "daily_ridership": 2117,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.664
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.779064,
+          30.251372
+        ]
+      },
+      "properties": {
+        "stop_id": "T070",
+        "stop_name": "Stop 71",
+        "route_type": "rail",
+        "daily_ridership": 1514,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.299
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.739414,
+          30.266216
+        ]
+      },
+      "properties": {
+        "stop_id": "T071",
+        "stop_name": "Stop 72",
+        "route_type": "bus",
+        "daily_ridership": 4402,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.828
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.736824,
+          30.267247
+        ]
+      },
+      "properties": {
+        "stop_id": "T072",
+        "stop_name": "Stop 73",
+        "route_type": "bus_rapid",
+        "daily_ridership": 4092,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.756331,
+          30.262592
+        ]
+      },
+      "properties": {
+        "stop_id": "T073",
+        "stop_name": "Stop 74",
+        "route_type": "shuttle",
+        "daily_ridership": 382,
+        "has_shade_structure": false,
+        "has_cooling_station": true,
+        "heat_exposure_score": 0.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.736357,
+          30.261535
+        ]
+      },
+      "properties": {
+        "stop_id": "T074",
+        "stop_name": "Stop 75",
+        "route_type": "bus",
+        "daily_ridership": 3178,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.693
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.756093,
+          30.257523
+        ]
+      },
+      "properties": {
+        "stop_id": "T075",
+        "stop_name": "Stop 76",
+        "route_type": "bus_rapid",
+        "daily_ridership": 2154,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.749132,
+          30.26696
+        ]
+      },
+      "properties": {
+        "stop_id": "T076",
+        "stop_name": "Stop 77",
+        "route_type": "bus",
+        "daily_ridership": 1619,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.908
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.753258,
+          30.232264
+        ]
+      },
+      "properties": {
+        "stop_id": "T077",
+        "stop_name": "Stop 78",
+        "route_type": "bus",
+        "daily_ridership": 3115,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.394
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.695478,
+          30.276337
+        ]
+      },
+      "properties": {
+        "stop_id": "T078",
+        "stop_name": "Stop 79",
+        "route_type": "bus_rapid",
+        "daily_ridership": 2317,
+        "has_shade_structure": false,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.447
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.728293,
+          30.273095
+        ]
+      },
+      "properties": {
+        "stop_id": "T079",
+        "stop_name": "Stop 80",
+        "route_type": "bus_rapid",
+        "daily_ridership": 203,
+        "has_shade_structure": true,
+        "has_cooling_station": false,
+        "heat_exposure_score": 0.678
+      }
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urban Heat Island & Environmental Equity Analysis</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:#0f172a;color:#e2e8f0}
+#map{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1}
+
+.header-bar{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  background:linear-gradient(135deg,rgba(15,23,42,0.95),rgba(30,41,59,0.92));
+  backdrop-filter:blur(12px);border-bottom:1px solid rgba(99,102,241,0.3);
+  padding:12px 24px;display:flex;align-items:center;justify-content:space-between;
+}
+.header-bar h1{font-size:18px;font-weight:600;color:#f8fafc;letter-spacing:-0.3px}
+.header-bar h1 span{color:#818cf8;font-weight:300}
+.header-badge{
+  background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;
+  font-size:11px;font-weight:600;padding:4px 12px;border-radius:20px;
+  letter-spacing:0.5px;text-transform:uppercase;
+}
+
+.control-panel{
+  position:fixed;top:60px;right:16px;z-index:1000;width:300px;
+  background:rgba(15,23,42,0.92);backdrop-filter:blur(12px);
+  border:1px solid rgba(99,102,241,0.2);border-radius:12px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.4);overflow:hidden;
+}
+.panel-section{padding:16px;border-bottom:1px solid rgba(255,255,255,0.06)}
+.panel-section:last-child{border-bottom:none}
+.panel-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:#818cf8;margin-bottom:10px}
+
+.layer-toggle{
+  display:flex;align-items:center;gap:10px;padding:6px 0;cursor:pointer;
+  transition:opacity .2s;
+}
+.layer-toggle:hover{opacity:0.8}
+.layer-toggle input[type="checkbox"]{
+  appearance:none;width:16px;height:16px;border:2px solid #475569;
+  border-radius:4px;cursor:pointer;position:relative;flex-shrink:0;
+}
+.layer-toggle input[type="checkbox"]:checked{background:#6366f1;border-color:#6366f1}
+.layer-toggle input[type="checkbox"]:checked::after{
+  content:'✓';position:absolute;top:-2px;left:2px;font-size:12px;color:white;font-weight:bold;
+}
+.layer-toggle label{font-size:13px;cursor:pointer;color:#cbd5e1}
+.layer-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+
+.legend-bar{display:flex;gap:2px;margin-top:6px;height:14px;border-radius:4px;overflow:hidden}
+.legend-bar div{flex:1}
+.legend-labels{display:flex;justify-content:space-between;font-size:10px;color:#94a3b8;margin-top:3px}
+
+.stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.stat-card{
+  background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);
+  border-radius:8px;padding:10px;text-align:center;
+}
+.stat-value{font-size:20px;font-weight:700;color:#f8fafc}
+.stat-label{font-size:10px;color:#94a3b8;margin-top:2px;text-transform:uppercase;letter-spacing:0.5px}
+.stat-value.hot{color:#ef4444}
+.stat-value.cool{color:#3b82f6}
+.stat-value.green{color:#22c55e}
+.stat-value.amber{color:#f59e0b}
+
+.info-popup{font-family:'Inter',sans-serif;font-size:12px;line-height:1.6;min-width:220px}
+.info-popup .popup-title{font-weight:600;font-size:14px;color:#1e293b;border-bottom:2px solid #6366f1;padding-bottom:4px;margin-bottom:6px}
+.info-popup .popup-row{display:flex;justify-content:space-between;padding:2px 0}
+.info-popup .popup-label{color:#64748b}
+.info-popup .popup-val{font-weight:600;color:#1e293b}
+.info-popup .popup-badge{
+  display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;
+  font-weight:600;text-transform:uppercase;margin-top:4px;
+}
+.info-popup .badge-critical{background:#fee2e2;color:#dc2626}
+.info-popup .badge-high{background:#ffedd5;color:#ea580c}
+.info-popup .badge-moderate{background:#fef9c3;color:#ca8a04}
+.info-popup .badge-low{background:#dcfce7;color:#16a34a}
+
+.methodology-btn{
+  position:fixed;bottom:20px;left:20px;z-index:1000;
+  background:rgba(15,23,42,0.9);border:1px solid rgba(99,102,241,0.3);
+  color:#818cf8;padding:8px 16px;border-radius:8px;font-size:12px;
+  cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;
+  transition:all .2s;
+}
+.methodology-btn:hover{background:rgba(99,102,241,0.2);color:#a5b4fc}
+
+.modal-overlay{
+  position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,0.6);
+  display:none;align-items:center;justify-content:center;
+  backdrop-filter:blur(4px);
+}
+.modal-overlay.active{display:flex}
+.modal{
+  background:#1e293b;border:1px solid rgba(99,102,241,0.3);
+  border-radius:16px;max-width:600px;width:90%;max-height:80vh;
+  overflow-y:auto;padding:32px;box-shadow:0 25px 80px rgba(0,0,0,0.5);
+}
+.modal h2{font-size:20px;color:#f8fafc;margin-bottom:16px}
+.modal p{font-size:13px;color:#94a3b8;line-height:1.7;margin-bottom:12px}
+.modal h3{font-size:14px;color:#818cf8;margin:16px 0 8px}
+.modal code{background:rgba(99,102,241,0.15);padding:1px 6px;border-radius:4px;font-size:12px;color:#a5b4fc}
+.modal-close{
+  float:right;background:none;border:none;color:#94a3b8;font-size:20px;
+  cursor:pointer;padding:4px;
+}
+.modal-close:hover{color:#f8fafc}
+
+.leaflet-popup-content-wrapper{border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,0.15)}
+</style>
+</head>
+<body>
+
+<div class="header-bar">
+  <h1>Urban Heat Island <span>&</span> Environmental Equity Analysis</h1>
+  <div class="header-badge">QGIS Portfolio Project</div>
+</div>
+
+<div id="map"></div>
+
+<div class="control-panel">
+  <div class="panel-section">
+    <div class="panel-title">Map Layers</div>
+    <div class="layer-toggle">
+      <input type="checkbox" id="toggle-grid" checked>
+      <div class="layer-dot" style="background:linear-gradient(135deg,#3154cb,#d73027)"></div>
+      <label for="toggle-grid">Surface Temperature</label>
+    </div>
+    <div class="layer-toggle">
+      <input type="checkbox" id="toggle-vuln">
+      <div class="layer-dot" style="background:linear-gradient(135deg,#1a9641,#d7191c)"></div>
+      <label for="toggle-vuln">Vulnerability Index</label>
+    </div>
+    <div class="layer-toggle">
+      <input type="checkbox" id="toggle-sensors" checked>
+      <div class="layer-dot" style="background:#ef4444"></div>
+      <label for="toggle-sensors">Temperature Sensors</label>
+    </div>
+    <div class="layer-toggle">
+      <input type="checkbox" id="toggle-green" checked>
+      <div class="layer-dot" style="background:#22c55e"></div>
+      <label for="toggle-green">Green Spaces</label>
+    </div>
+    <div class="layer-toggle">
+      <input type="checkbox" id="toggle-buildings">
+      <div class="layer-dot" style="background:#94a3b8"></div>
+      <label for="toggle-buildings">Buildings</label>
+    </div>
+    <div class="layer-toggle">
+      <input type="checkbox" id="toggle-transit" checked>
+      <div class="layer-dot" style="background:#f59e0b"></div>
+      <label for="toggle-transit">Transit Stops</label>
+    </div>
+  </div>
+
+  <div class="panel-section">
+    <div class="panel-title">Temperature Legend</div>
+    <div class="legend-bar">
+      <div style="background:#3154cb"></div>
+      <div style="background:#74add1"></div>
+      <div style="background:#fee090"></div>
+      <div style="background:#fdae61"></div>
+      <div style="background:#d73027"></div>
+    </div>
+    <div class="legend-labels"><span>28°C</span><span>33°C</span><span>42°C</span></div>
+  </div>
+
+  <div class="panel-section">
+    <div class="panel-title">Study Area Statistics</div>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-value hot" id="stat-max">--</div><div class="stat-label">Max Temp °C</div></div>
+      <div class="stat-card"><div class="stat-value cool" id="stat-min">--</div><div class="stat-label">Min Temp °C</div></div>
+      <div class="stat-card"><div class="stat-value green" id="stat-parks">--</div><div class="stat-label">Green Spaces</div></div>
+      <div class="stat-card"><div class="stat-value amber" id="stat-vuln">--</div><div class="stat-label">High Vuln Cells</div></div>
+    </div>
+  </div>
+</div>
+
+<button class="methodology-btn" onclick="document.getElementById('method-modal').classList.add('active')">
+  Methodology & Data
+</button>
+
+<div class="modal-overlay" id="method-modal">
+  <div class="modal">
+    <button class="modal-close" onclick="this.closest('.modal-overlay').classList.remove('active')">&times;</button>
+    <h2>Analysis Methodology</h2>
+    <p>This project applies geospatial analysis techniques to assess <strong>Urban Heat Island (UHI)</strong> intensity
+    and its intersection with socioeconomic vulnerability across a metropolitan study area.</p>
+
+    <h3>Data Layers</h3>
+    <p><code>analysis_grid</code> — 400-cell grid (500m resolution) with surface temperature, NDVI, impervious surface %,
+    land use classification, population density, median income, tree canopy coverage, and a composite vulnerability index.</p>
+    <p><code>temperature_sensors</code> — 300 sensor readings (ground, mobile, rooftop, satellite-derived) captured during
+    peak afternoon hours on a summer day.</p>
+    <p><code>green_spaces</code> — 45 parks with area, tree density, cooling effect radius, and accessibility scoring.</p>
+    <p><code>buildings</code> — 500 footprints with height, material, albedo, green roof status, and energy rating.</p>
+    <p><code>transit_stops</code> — 80 stops with ridership, shade infrastructure, and heat exposure scores.</p>
+
+    <h3>Analysis Pipeline</h3>
+    <p><strong>Heat-Equity Index (HEI)</strong> — Composite score: 35% surface temperature + 25% income disparity +
+    20% canopy deficit + 20% vulnerability index. Identifies areas where heat burden and social vulnerability converge.</p>
+    <p><strong>IDW Interpolation</strong> — Inverse Distance Weighted interpolation of sensor readings produces
+    a continuous heat surface raster (QGIS Processing).</p>
+    <p><strong>Spatial Autocorrelation</strong> — Global Moran's I computed for temperature and NDVI to quantify
+    clustering patterns.</p>
+    <p><strong>ML Feature Engineering</strong> — Spatial lag, local density statistics, and accessibility metrics
+    exported as a training-ready CSV for predictive modeling.</p>
+
+    <h3>Tools & Technologies</h3>
+    <p>QGIS 3.34+ &bull; Python (PyQGIS) &bull; QGIS Processing Framework &bull; Leaflet.js &bull; GeoJSON</p>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const map = L.map('map', {
+  center: [30.2672, -97.7431],
+  zoom: 14,
+  zoomControl: false
+});
+
+L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a> &bull; Analysis by Alex',
+  maxZoom: 19
+}).addTo(map);
+
+function tempColor(t) {
+  if (t < 31) return 'rgba(49,84,203,0.7)';
+  if (t < 33) return 'rgba(116,173,209,0.7)';
+  if (t < 35) return 'rgba(254,224,144,0.7)';
+  if (t < 37) return 'rgba(253,174,97,0.8)';
+  return 'rgba(215,48,39,0.85)';
+}
+
+function vulnColor(v) {
+  if (v < 0.25) return 'rgba(26,150,65,0.7)';
+  if (v < 0.45) return 'rgba(166,217,106,0.7)';
+  if (v < 0.65) return 'rgba(253,174,97,0.8)';
+  return 'rgba(215,25,28,0.85)';
+}
+
+function riskBadge(v) {
+  if (v >= 0.65) return '<span class="popup-badge badge-critical">Critical</span>';
+  if (v >= 0.45) return '<span class="popup-badge badge-high">High</span>';
+  if (v >= 0.25) return '<span class="popup-badge badge-moderate">Moderate</span>';
+  return '<span class="popup-badge badge-low">Low</span>';
+}
+
+function gridPopup(p) {
+  return `<div class="info-popup">
+    <div class="popup-title">Cell ${p.cell_id}</div>
+    <div class="popup-row"><span class="popup-label">Surface Temp</span><span class="popup-val">${p.surface_temp_c}°C</span></div>
+    <div class="popup-row"><span class="popup-label">NDVI</span><span class="popup-val">${p.ndvi}</span></div>
+    <div class="popup-row"><span class="popup-label">Impervious</span><span class="popup-val">${p.impervious_pct}%</span></div>
+    <div class="popup-row"><span class="popup-label">Land Use</span><span class="popup-val">${p.land_use.replace('_',' ')}</span></div>
+    <div class="popup-row"><span class="popup-label">Pop Density</span><span class="popup-val">${p.pop_density_km2}/km²</span></div>
+    <div class="popup-row"><span class="popup-label">Median Income</span><span class="popup-val">$${(p.median_income_usd/1000).toFixed(0)}k</span></div>
+    <div class="popup-row"><span class="popup-label">Tree Canopy</span><span class="popup-val">${p.tree_canopy_pct}%</span></div>
+    <div class="popup-row"><span class="popup-label">Vulnerability</span><span class="popup-val">${p.vulnerability_index}</span></div>
+    ${riskBadge(p.vulnerability_index)}
+  </div>`;
+}
+
+let gridLayer, vulnLayer, sensorLayer, greenLayer, buildingLayer, transitLayer;
+let stats = { maxTemp: -Infinity, minTemp: Infinity, parks: 0, highVuln: 0 };
+
+async function loadData() {
+  const [gridData, sensorData, greenData, buildingData, transitData] = await Promise.all([
+    fetch('../data/analysis_grid.geojson').then(r => r.json()),
+    fetch('../data/temperature_sensors.geojson').then(r => r.json()),
+    fetch('../data/green_spaces.geojson').then(r => r.json()),
+    fetch('../data/buildings.geojson').then(r => r.json()),
+    fetch('../data/transit_stops.geojson').then(r => r.json()),
+  ]);
+
+  // Temperature Grid
+  gridLayer = L.geoJSON(gridData, {
+    style: f => ({
+      fillColor: tempColor(f.properties.surface_temp_c),
+      fillOpacity: 0.75, weight: 0.5, color: 'rgba(255,255,255,0.15)'
+    }),
+    onEachFeature: (f, layer) => {
+      layer.bindPopup(gridPopup(f.properties));
+      const t = f.properties.surface_temp_c;
+      stats.maxTemp = Math.max(stats.maxTemp, t);
+      stats.minTemp = Math.min(stats.minTemp, t);
+      if (f.properties.vulnerability_index >= 0.55) stats.highVuln++;
+    }
+  }).addTo(map);
+
+  // Vulnerability Grid (hidden by default)
+  vulnLayer = L.geoJSON(gridData, {
+    style: f => ({
+      fillColor: vulnColor(f.properties.vulnerability_index),
+      fillOpacity: 0.75, weight: 0.5, color: 'rgba(255,255,255,0.15)'
+    }),
+    onEachFeature: (f, layer) => layer.bindPopup(gridPopup(f.properties))
+  });
+
+  // Sensors
+  sensorLayer = L.geoJSON(sensorData, {
+    pointToLayer: (f, ll) => {
+      const t = f.properties.temp_c;
+      return L.circleMarker(ll, {
+        radius: 3 + (t - 28) * 0.5,
+        fillColor: tempColor(t), fillOpacity: 0.9,
+        weight: 1, color: 'rgba(255,255,255,0.4)'
+      });
+    },
+    onEachFeature: (f, layer) => {
+      const p = f.properties;
+      layer.bindPopup(`<div class="info-popup">
+        <div class="popup-title">Sensor ${p.sensor_id}</div>
+        <div class="popup-row"><span class="popup-label">Temperature</span><span class="popup-val">${p.temp_c}°C</span></div>
+        <div class="popup-row"><span class="popup-label">Humidity</span><span class="popup-val">${p.humidity_pct}%</span></div>
+        <div class="popup-row"><span class="popup-label">Type</span><span class="popup-val">${p.sensor_type.replace('_',' ')}</span></div>
+        <div class="popup-row"><span class="popup-label">Time</span><span class="popup-val">${p.measurement_time}</span></div>
+      </div>`);
+    }
+  }).addTo(map);
+
+  // Green Spaces
+  stats.parks = greenData.features.length;
+  greenLayer = L.geoJSON(greenData, {
+    style: () => ({
+      fillColor: '#22c55e', fillOpacity: 0.5,
+      weight: 1.5, color: '#15803d'
+    }),
+    onEachFeature: (f, layer) => {
+      const p = f.properties;
+      layer.bindPopup(`<div class="info-popup">
+        <div class="popup-title">${p.name}</div>
+        <div class="popup-row"><span class="popup-label">Area</span><span class="popup-val">${p.area_ha} ha</span></div>
+        <div class="popup-row"><span class="popup-label">Tree Density</span><span class="popup-val">${p.tree_density}</span></div>
+        <div class="popup-row"><span class="popup-label">Cooling Radius</span><span class="popup-val">${p.cooling_effect_radius_m}m</span></div>
+        <div class="popup-row"><span class="popup-label">Avg Cooling</span><span class="popup-val">-${p.avg_temp_reduction_c}°C</span></div>
+      </div>`);
+    }
+  }).addTo(map);
+
+  // Buildings
+  buildingLayer = L.geoJSON(buildingData, {
+    style: f => {
+      const h = f.properties.height_m;
+      const v = Math.min(200, 120 + h);
+      return {
+        fillColor: `rgb(${v},${v},${Math.min(255,v+30)})`,
+        fillOpacity: 0.6, weight: 0.3, color: 'rgba(255,255,255,0.2)'
+      };
+    },
+    onEachFeature: (f, layer) => {
+      const p = f.properties;
+      layer.bindPopup(`<div class="info-popup">
+        <div class="popup-title">Building ${p.bld_id}</div>
+        <div class="popup-row"><span class="popup-label">Type</span><span class="popup-val">${p.building_type.replace('_',' ')}</span></div>
+        <div class="popup-row"><span class="popup-label">Height</span><span class="popup-val">${p.height_m}m (${p.floors}F)</span></div>
+        <div class="popup-row"><span class="popup-label">Material</span><span class="popup-val">${p.material.replace('_',' ')}</span></div>
+        <div class="popup-row"><span class="popup-label">Albedo</span><span class="popup-val">${p.albedo}</span></div>
+        <div class="popup-row"><span class="popup-label">Green Roof</span><span class="popup-val">${p.has_green_roof ? 'Yes' : 'No'}</span></div>
+        <div class="popup-row"><span class="popup-label">Energy Rating</span><span class="popup-val">${p.energy_rating}</span></div>
+      </div>`);
+    }
+  });
+
+  // Transit Stops
+  transitLayer = L.geoJSON(transitData, {
+    pointToLayer: (f, ll) => {
+      const s = f.properties.heat_exposure_score;
+      let color = s > 0.7 ? '#ef4444' : s > 0.5 ? '#f59e0b' : s > 0.3 ? '#eab308' : '#22c55e';
+      return L.circleMarker(ll, {
+        radius: 5 + s * 5,
+        fillColor: color, fillOpacity: 0.85,
+        weight: 1.5, color: 'rgba(255,255,255,0.5)'
+      });
+    },
+    onEachFeature: (f, layer) => {
+      const p = f.properties;
+      layer.bindPopup(`<div class="info-popup">
+        <div class="popup-title">${p.stop_name}</div>
+        <div class="popup-row"><span class="popup-label">Route Type</span><span class="popup-val">${p.route_type.replace('_',' ')}</span></div>
+        <div class="popup-row"><span class="popup-label">Daily Riders</span><span class="popup-val">${p.daily_ridership.toLocaleString()}</span></div>
+        <div class="popup-row"><span class="popup-label">Heat Exposure</span><span class="popup-val">${(p.heat_exposure_score*100).toFixed(0)}%</span></div>
+        <div class="popup-row"><span class="popup-label">Has Shade</span><span class="popup-val">${p.has_shade_structure ? 'Yes' : 'No'}</span></div>
+        <div class="popup-row"><span class="popup-label">Cooling Station</span><span class="popup-val">${p.has_cooling_station ? 'Yes' : 'No'}</span></div>
+      </div>`);
+    }
+  }).addTo(map);
+
+  // Update stats
+  document.getElementById('stat-max').textContent = stats.maxTemp.toFixed(1);
+  document.getElementById('stat-min').textContent = stats.minTemp.toFixed(1);
+  document.getElementById('stat-parks').textContent = stats.parks;
+  document.getElementById('stat-vuln').textContent = stats.highVuln;
+}
+
+// Layer toggle handlers
+function setupToggles() {
+  const toggles = {
+    'toggle-grid': () => gridLayer,
+    'toggle-vuln': () => vulnLayer,
+    'toggle-sensors': () => sensorLayer,
+    'toggle-green': () => greenLayer,
+    'toggle-buildings': () => buildingLayer,
+    'toggle-transit': () => transitLayer,
+  };
+
+  Object.entries(toggles).forEach(([id, getLayer]) => {
+    document.getElementById(id).addEventListener('change', function() {
+      const layer = getLayer();
+      if (!layer) return;
+      if (this.checked) {
+        map.addLayer(layer);
+      } else {
+        map.removeLayer(layer);
+      }
+    });
+  });
+}
+
+loadData().then(setupToggles);
+</script>
+</body>
+</html>

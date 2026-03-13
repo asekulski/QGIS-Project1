@@ -1,0 +1,1806 @@
+{
+  "type": "FeatureCollection",
+  "name": "green_spaces",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.736367,
+              30.265496
+            ],
+            [
+              -97.731545,
+              30.265496
+            ],
+            [
+              -97.731545,
+              30.260714
+            ],
+            [
+              -97.736367,
+              30.260714
+            ],
+            [
+              -97.736367,
+              30.265496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P000",
+        "name": "Zilker Park",
+        "area_ha": 24.68,
+        "tree_density": "moderate",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 746,
+        "avg_temp_reduction_c": 2.38,
+        "accessibility_score": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.738716,
+              30.254912
+            ],
+            [
+              -97.734588,
+              30.254912
+            ],
+            [
+              -97.734588,
+              30.253362
+            ],
+            [
+              -97.738716,
+              30.253362
+            ],
+            [
+              -97.738716,
+              30.254912
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P001",
+        "name": "Pease Park",
+        "area_ha": 6.85,
+        "tree_density": "moderate",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 867,
+        "avg_temp_reduction_c": 1.32,
+        "accessibility_score": 0.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.721108,
+              30.266471
+            ],
+            [
+              -97.720102,
+              30.266471
+            ],
+            [
+              -97.720102,
+              30.263095
+            ],
+            [
+              -97.721108,
+              30.263095
+            ],
+            [
+              -97.721108,
+              30.266471
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P002",
+        "name": "Mueller Greenway",
+        "area_ha": 3.63,
+        "tree_density": "moderate",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 161,
+        "avg_temp_reduction_c": 2.06,
+        "accessibility_score": 0.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.760913,
+              30.268859
+            ],
+            [
+              -97.758485,
+              30.268859
+            ],
+            [
+              -97.758485,
+              30.267407
+            ],
+            [
+              -97.760913,
+              30.267407
+            ],
+            [
+              -97.760913,
+              30.268859
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P003",
+        "name": "Shoal Creek Greenbelt",
+        "area_ha": 3.77,
+        "tree_density": "dense",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 552,
+        "avg_temp_reduction_c": 2.29,
+        "accessibility_score": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.728813,
+              30.244327
+            ],
+            [
+              -97.723319,
+              30.244327
+            ],
+            [
+              -97.723319,
+              30.242597
+            ],
+            [
+              -97.728813,
+              30.242597
+            ],
+            [
+              -97.728813,
+              30.244327
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P004",
+        "name": "Lady Bird Lake Trail",
+        "area_ha": 10.17,
+        "tree_density": "moderate",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 1013,
+        "avg_temp_reduction_c": 2.77,
+        "accessibility_score": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.722867,
+              30.270045
+            ],
+            [
+              -97.718901,
+              30.270045
+            ],
+            [
+              -97.718901,
+              30.265161
+            ],
+            [
+              -97.722867,
+              30.265161
+            ],
+            [
+              -97.722867,
+              30.270045
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P005",
+        "name": "Barton Springs",
+        "area_ha": 20.73,
+        "tree_density": "dense",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 1094,
+        "avg_temp_reduction_c": 3.23,
+        "accessibility_score": 0.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.729934,
+              30.315872
+            ],
+            [
+              -97.725132,
+              30.315872
+            ],
+            [
+              -97.725132,
+              30.312798
+            ],
+            [
+              -97.729934,
+              30.312798
+            ],
+            [
+              -97.729934,
+              30.315872
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P006",
+        "name": "McKinney Falls",
+        "area_ha": 15.79,
+        "tree_density": "moderate",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 1023,
+        "avg_temp_reduction_c": 2.95,
+        "accessibility_score": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.739813,
+              30.252972
+            ],
+            [
+              -97.735961,
+              30.252972
+            ],
+            [
+              -97.735961,
+              30.252196
+            ],
+            [
+              -97.739813,
+              30.252196
+            ],
+            [
+              -97.739813,
+              30.252972
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P007",
+        "name": "Bull Creek Park",
+        "area_ha": 3.2,
+        "tree_density": "dense",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 1083,
+        "avg_temp_reduction_c": 1.16,
+        "accessibility_score": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.75275,
+              30.263133
+            ],
+            [
+              -97.749324,
+              30.263133
+            ],
+            [
+              -97.749324,
+              30.260991
+            ],
+            [
+              -97.75275,
+              30.260991
+            ],
+            [
+              -97.75275,
+              30.263133
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P008",
+        "name": "Walnut Creek Metro",
+        "area_ha": 7.86,
+        "tree_density": "dense",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 918,
+        "avg_temp_reduction_c": 2.82,
+        "accessibility_score": 0.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.733186,
+              30.230913
+            ],
+            [
+              -97.727628,
+              30.230913
+            ],
+            [
+              -97.727628,
+              30.228301
+            ],
+            [
+              -97.733186,
+              30.228301
+            ],
+            [
+              -97.733186,
+              30.230913
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P009",
+        "name": "Emma Long Park",
+        "area_ha": 15.55,
+        "tree_density": "moderate",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 1366,
+        "avg_temp_reduction_c": 0.8,
+        "accessibility_score": 0.74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.717733,
+              30.241628
+            ],
+            [
+              -97.714031,
+              30.241628
+            ],
+            [
+              -97.714031,
+              30.239524
+            ],
+            [
+              -97.717733,
+              30.239524
+            ],
+            [
+              -97.717733,
+              30.241628
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P010",
+        "name": "Commons Ford Ranch",
+        "area_ha": 8.34,
+        "tree_density": "moderate",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 954,
+        "avg_temp_reduction_c": 1.02,
+        "accessibility_score": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.754091,
+              30.268514
+            ],
+            [
+              -97.748147,
+              30.268514
+            ],
+            [
+              -97.748147,
+              30.264644
+            ],
+            [
+              -97.754091,
+              30.264644
+            ],
+            [
+              -97.754091,
+              30.268514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P011",
+        "name": "Roy Guerrero Park",
+        "area_ha": 24.62,
+        "tree_density": "sparse",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 1185,
+        "avg_temp_reduction_c": 2.06,
+        "accessibility_score": 0.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.716469,
+              30.24642
+            ],
+            [
+              -97.711825,
+              30.24642
+            ],
+            [
+              -97.711825,
+              30.243082
+            ],
+            [
+              -97.716469,
+              30.243082
+            ],
+            [
+              -97.716469,
+              30.24642
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P012",
+        "name": "Onion Creek Metro",
+        "area_ha": 16.59,
+        "tree_density": "sparse",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 1327,
+        "avg_temp_reduction_c": 1.44,
+        "accessibility_score": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.737804,
+              30.223551
+            ],
+            [
+              -97.733836,
+              30.223551
+            ],
+            [
+              -97.733836,
+              30.218353
+            ],
+            [
+              -97.737804,
+              30.218353
+            ],
+            [
+              -97.737804,
+              30.223551
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P013",
+        "name": "Mary Moore Searight",
+        "area_ha": 22.09,
+        "tree_density": "sparse",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 755,
+        "avg_temp_reduction_c": 3.22,
+        "accessibility_score": 0.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.740784,
+              30.262476
+            ],
+            [
+              -97.737936,
+              30.262476
+            ],
+            [
+              -97.737936,
+              30.259644
+            ],
+            [
+              -97.740784,
+              30.259644
+            ],
+            [
+              -97.740784,
+              30.262476
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P014",
+        "name": "Circle C Ranch Park",
+        "area_ha": 8.63,
+        "tree_density": "dense",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 603,
+        "avg_temp_reduction_c": 2.24,
+        "accessibility_score": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.761465,
+              30.289139
+            ],
+            [
+              -97.758641,
+              30.289139
+            ],
+            [
+              -97.758641,
+              30.285275
+            ],
+            [
+              -97.761465,
+              30.285275
+            ],
+            [
+              -97.761465,
+              30.289139
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P015",
+        "name": "Bartholomew Park",
+        "area_ha": 11.67,
+        "tree_density": "dense",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 483,
+        "avg_temp_reduction_c": 3.19,
+        "accessibility_score": 0.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.736913,
+              30.258056
+            ],
+            [
+              -97.730899,
+              30.258056
+            ],
+            [
+              -97.730899,
+              30.256978
+            ],
+            [
+              -97.736913,
+              30.256978
+            ],
+            [
+              -97.736913,
+              30.258056
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P016",
+        "name": "Givens District Park",
+        "area_ha": 6.94,
+        "tree_density": "sparse",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 964,
+        "avg_temp_reduction_c": 1.2,
+        "accessibility_score": 0.41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.691107,
+              30.281928
+            ],
+            [
+              -97.690153,
+              30.281928
+            ],
+            [
+              -97.690153,
+              30.279264
+            ],
+            [
+              -97.691107,
+              30.279264
+            ],
+            [
+              -97.691107,
+              30.281928
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P017",
+        "name": "Patterson Park",
+        "area_ha": 2.72,
+        "tree_density": "dense",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 202,
+        "avg_temp_reduction_c": 1.93,
+        "accessibility_score": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.741553,
+              30.282297
+            ],
+            [
+              -97.740601,
+              30.282297
+            ],
+            [
+              -97.740601,
+              30.277833
+            ],
+            [
+              -97.741553,
+              30.277833
+            ],
+            [
+              -97.741553,
+              30.282297
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P018",
+        "name": "Dove Springs Rec",
+        "area_ha": 4.55,
+        "tree_density": "dense",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 193,
+        "avg_temp_reduction_c": 1.73,
+        "accessibility_score": 0.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.713408,
+              30.25516
+            ],
+            [
+              -97.708808,
+              30.25516
+            ],
+            [
+              -97.708808,
+              30.250508
+            ],
+            [
+              -97.713408,
+              30.250508
+            ],
+            [
+              -97.713408,
+              30.25516
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P019",
+        "name": "St. Edwards Greenbelt",
+        "area_ha": 22.91,
+        "tree_density": "moderate",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 865,
+        "avg_temp_reduction_c": 1.16,
+        "accessibility_score": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.728322,
+              30.277462
+            ],
+            [
+              -97.72487,
+              30.277462
+            ],
+            [
+              -97.72487,
+              30.272208
+            ],
+            [
+              -97.728322,
+              30.272208
+            ],
+            [
+              -97.728322,
+              30.277462
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P020",
+        "name": "Community Green #20",
+        "area_ha": 19.4,
+        "tree_density": "sparse",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 673,
+        "avg_temp_reduction_c": 2.03,
+        "accessibility_score": 0.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.76366,
+              30.30223
+            ],
+            [
+              -97.761284,
+              30.30223
+            ],
+            [
+              -97.761284,
+              30.296966
+            ],
+            [
+              -97.76366,
+              30.296966
+            ],
+            [
+              -97.76366,
+              30.30223
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P021",
+        "name": "Community Green #21",
+        "area_ha": 13.38,
+        "tree_density": "dense",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 397,
+        "avg_temp_reduction_c": 1.12,
+        "accessibility_score": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.75721,
+              30.246359
+            ],
+            [
+              -97.75438,
+              30.246359
+            ],
+            [
+              -97.75438,
+              30.244683
+            ],
+            [
+              -97.75721,
+              30.244683
+            ],
+            [
+              -97.75721,
+              30.246359
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P022",
+        "name": "Community Green #22",
+        "area_ha": 5.08,
+        "tree_density": "dense",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 680,
+        "avg_temp_reduction_c": 3.44,
+        "accessibility_score": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.727151,
+              30.222052
+            ],
+            [
+              -97.723435,
+              30.222052
+            ],
+            [
+              -97.723435,
+              30.220766
+            ],
+            [
+              -97.727151,
+              30.220766
+            ],
+            [
+              -97.727151,
+              30.222052
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P023",
+        "name": "Community Green #23",
+        "area_ha": 5.12,
+        "tree_density": "sparse",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 1035,
+        "avg_temp_reduction_c": 2.87,
+        "accessibility_score": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.751975,
+              30.279173
+            ],
+            [
+              -97.745895,
+              30.279173
+            ],
+            [
+              -97.745895,
+              30.275903
+            ],
+            [
+              -97.751975,
+              30.275903
+            ],
+            [
+              -97.751975,
+              30.279173
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P024",
+        "name": "Community Green #24",
+        "area_ha": 21.27,
+        "tree_density": "dense",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 1444,
+        "avg_temp_reduction_c": 1.6,
+        "accessibility_score": 0.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.754637,
+              30.306785
+            ],
+            [
+              -97.748427,
+              30.306785
+            ],
+            [
+              -97.748427,
+              30.302951
+            ],
+            [
+              -97.754637,
+              30.302951
+            ],
+            [
+              -97.754637,
+              30.306785
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P025",
+        "name": "Community Green #25",
+        "area_ha": 25.48,
+        "tree_density": "dense",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 1198,
+        "avg_temp_reduction_c": 1.1,
+        "accessibility_score": 0.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.73375,
+              30.301459
+            ],
+            [
+              -97.732286,
+              30.301459
+            ],
+            [
+              -97.732286,
+              30.300625
+            ],
+            [
+              -97.73375,
+              30.300625
+            ],
+            [
+              -97.73375,
+              30.301459
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P026",
+        "name": "Community Green #26",
+        "area_ha": 1.31,
+        "tree_density": "dense",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 305,
+        "avg_temp_reduction_c": 1.05,
+        "accessibility_score": 0.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.771688,
+              30.250374
+            ],
+            [
+              -97.769654,
+              30.250374
+            ],
+            [
+              -97.769654,
+              30.245284
+            ],
+            [
+              -97.771688,
+              30.245284
+            ],
+            [
+              -97.771688,
+              30.250374
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P027",
+        "name": "Community Green #27",
+        "area_ha": 11.08,
+        "tree_density": "moderate",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 299,
+        "avg_temp_reduction_c": 2.25,
+        "accessibility_score": 0.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.753485,
+              30.264031
+            ],
+            [
+              -97.749885,
+              30.264031
+            ],
+            [
+              -97.749885,
+              30.262405
+            ],
+            [
+              -97.753485,
+              30.262405
+            ],
+            [
+              -97.753485,
+              30.264031
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P028",
+        "name": "Community Green #28",
+        "area_ha": 6.27,
+        "tree_density": "moderate",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 990,
+        "avg_temp_reduction_c": 1.77,
+        "accessibility_score": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.763934,
+              30.281027
+            ],
+            [
+              -97.761086,
+              30.281027
+            ],
+            [
+              -97.761086,
+              30.278979
+            ],
+            [
+              -97.763934,
+              30.278979
+            ],
+            [
+              -97.763934,
+              30.281027
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P029",
+        "name": "Community Green #29",
+        "area_ha": 6.24,
+        "tree_density": "moderate",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 812,
+        "avg_temp_reduction_c": 3.16,
+        "accessibility_score": 0.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.774228,
+              30.266046
+            ],
+            [
+              -97.768028,
+              30.266046
+            ],
+            [
+              -97.768028,
+              30.261574
+            ],
+            [
+              -97.774228,
+              30.261574
+            ],
+            [
+              -97.774228,
+              30.266046
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P030",
+        "name": "Community Green #30",
+        "area_ha": 29.68,
+        "tree_density": "moderate",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 1614,
+        "avg_temp_reduction_c": 3.42,
+        "accessibility_score": 0.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.752651,
+              30.276321
+            ],
+            [
+              -97.748643,
+              30.276321
+            ],
+            [
+              -97.748643,
+              30.275201
+            ],
+            [
+              -97.752651,
+              30.275201
+            ],
+            [
+              -97.752651,
+              30.276321
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P031",
+        "name": "Community Green #31",
+        "area_ha": 4.81,
+        "tree_density": "sparse",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 852,
+        "avg_temp_reduction_c": 3.14,
+        "accessibility_score": 0.99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.723313,
+              30.311331
+            ],
+            [
+              -97.718389,
+              30.311331
+            ],
+            [
+              -97.718389,
+              30.310199
+            ],
+            [
+              -97.723313,
+              30.310199
+            ],
+            [
+              -97.723313,
+              30.311331
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P032",
+        "name": "Community Green #32",
+        "area_ha": 5.96,
+        "tree_density": "moderate",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 1003,
+        "avg_temp_reduction_c": 2.3,
+        "accessibility_score": 0.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.756334,
+              30.268802
+            ],
+            [
+              -97.754496,
+              30.268802
+            ],
+            [
+              -97.754496,
+              30.2663
+            ],
+            [
+              -97.756334,
+              30.2663
+            ],
+            [
+              -97.756334,
+              30.268802
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P033",
+        "name": "Community Green #33",
+        "area_ha": 4.92,
+        "tree_density": "dense",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 276,
+        "avg_temp_reduction_c": 3.03,
+        "accessibility_score": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.712432,
+              30.257782
+            ],
+            [
+              -97.709094,
+              30.257782
+            ],
+            [
+              -97.709094,
+              30.256938
+            ],
+            [
+              -97.712432,
+              30.256938
+            ],
+            [
+              -97.712432,
+              30.257782
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P034",
+        "name": "Community Green #34",
+        "area_ha": 3.02,
+        "tree_density": "sparse",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 607,
+        "avg_temp_reduction_c": 3.38,
+        "accessibility_score": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.739199,
+              30.235179
+            ],
+            [
+              -97.733541,
+              30.235179
+            ],
+            [
+              -97.733541,
+              30.232511
+            ],
+            [
+              -97.739199,
+              30.232511
+            ],
+            [
+              -97.739199,
+              30.235179
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P035",
+        "name": "Community Green #35",
+        "area_ha": 16.16,
+        "tree_density": "moderate",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 839,
+        "avg_temp_reduction_c": 2.86,
+        "accessibility_score": 0.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.751165,
+              30.29954
+            ],
+            [
+              -97.748375,
+              30.29954
+            ],
+            [
+              -97.748375,
+              30.296576
+            ],
+            [
+              -97.751165,
+              30.296576
+            ],
+            [
+              -97.751165,
+              30.29954
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P036",
+        "name": "Community Green #36",
+        "area_ha": 8.84,
+        "tree_density": "moderate",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 654,
+        "avg_temp_reduction_c": 2.09,
+        "accessibility_score": 0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.723327,
+              30.289639
+            ],
+            [
+              -97.719383,
+              30.289639
+            ],
+            [
+              -97.719383,
+              30.284971
+            ],
+            [
+              -97.723327,
+              30.284971
+            ],
+            [
+              -97.723327,
+              30.289639
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P037",
+        "name": "Community Green #37",
+        "area_ha": 19.7,
+        "tree_density": "sparse",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 651,
+        "avg_temp_reduction_c": 2.04,
+        "accessibility_score": 0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.738284,
+              30.264755
+            ],
+            [
+              -97.735498,
+              30.264755
+            ],
+            [
+              -97.735498,
+              30.261065
+            ],
+            [
+              -97.738284,
+              30.261065
+            ],
+            [
+              -97.738284,
+              30.264755
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P038",
+        "name": "Community Green #38",
+        "area_ha": 11.0,
+        "tree_density": "moderate",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 518,
+        "avg_temp_reduction_c": 2.23,
+        "accessibility_score": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.747932,
+              30.229011
+            ],
+            [
+              -97.74611,
+              30.229011
+            ],
+            [
+              -97.74611,
+              30.227851
+            ],
+            [
+              -97.747932,
+              30.227851
+            ],
+            [
+              -97.747932,
+              30.229011
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P039",
+        "name": "Community Green #39",
+        "area_ha": 2.26,
+        "tree_density": "sparse",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 492,
+        "avg_temp_reduction_c": 3.03,
+        "accessibility_score": 0.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.706615,
+              30.256655
+            ],
+            [
+              -97.702061,
+              30.256655
+            ],
+            [
+              -97.702061,
+              30.255489
+            ],
+            [
+              -97.706615,
+              30.255489
+            ],
+            [
+              -97.706615,
+              30.256655
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P040",
+        "name": "Community Green #40",
+        "area_ha": 5.69,
+        "tree_density": "dense",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 1197,
+        "avg_temp_reduction_c": 0.83,
+        "accessibility_score": 0.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.722661,
+              30.251344
+            ],
+            [
+              -97.719989,
+              30.251344
+            ],
+            [
+              -97.719989,
+              30.24637
+            ],
+            [
+              -97.722661,
+              30.24637
+            ],
+            [
+              -97.722661,
+              30.251344
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P041",
+        "name": "Community Green #41",
+        "area_ha": 14.23,
+        "tree_density": "sparse",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 445,
+        "avg_temp_reduction_c": 1.4,
+        "accessibility_score": 0.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.768124,
+              30.294358
+            ],
+            [
+              -97.762794,
+              30.294358
+            ],
+            [
+              -97.762794,
+              30.291184
+            ],
+            [
+              -97.768124,
+              30.291184
+            ],
+            [
+              -97.768124,
+              30.294358
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P042",
+        "name": "Community Green #42",
+        "area_ha": 18.1,
+        "tree_density": "dense",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 1089,
+        "avg_temp_reduction_c": 3.27,
+        "accessibility_score": 0.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.739976,
+              30.272752
+            ],
+            [
+              -97.73726,
+              30.272752
+            ],
+            [
+              -97.73726,
+              30.268806
+            ],
+            [
+              -97.739976,
+              30.268806
+            ],
+            [
+              -97.739976,
+              30.272752
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P043",
+        "name": "Community Green #43",
+        "area_ha": 11.47,
+        "tree_density": "sparse",
+        "has_water_feature": false,
+        "cooling_effect_radius_m": 740,
+        "avg_temp_reduction_c": 2.41,
+        "accessibility_score": 0.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.708325,
+              30.249577
+            ],
+            [
+              -97.707337,
+              30.249577
+            ],
+            [
+              -97.707337,
+              30.245053
+            ],
+            [
+              -97.708325,
+              30.245053
+            ],
+            [
+              -97.708325,
+              30.249577
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "park_id": "P044",
+        "name": "Community Green #44",
+        "area_ha": 4.78,
+        "tree_density": "sparse",
+        "has_water_feature": true,
+        "cooling_effect_radius_m": 264,
+        "avg_temp_reduction_c": 1.18,
+        "accessibility_score": 0.46
+      }
+    }
+  ]
+}

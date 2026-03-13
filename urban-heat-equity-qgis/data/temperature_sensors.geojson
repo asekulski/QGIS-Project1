@@ -1,0 +1,5706 @@
+{
+  "type": "FeatureCollection",
+  "name": "temperature_sensors",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71344,
+          30.285054
+        ]
+      },
+      "properties": {
+        "sensor_id": "S000",
+        "temp_c": 33.98,
+        "humidity_pct": 49.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:42",
+        "sensor_type": "rooftop",
+        "elevation_m": 127.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.720285,
+          30.231975
+        ]
+      },
+      "properties": {
+        "sensor_id": "S001",
+        "temp_c": 32.06,
+        "humidity_pct": 50.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:07",
+        "sensor_type": "ground_station",
+        "elevation_m": 148.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74265,
+          30.239849
+        ]
+      },
+      "properties": {
+        "sensor_id": "S002",
+        "temp_c": 36.05,
+        "humidity_pct": 40.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:22",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 148.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.742853,
+          30.257874
+        ]
+      },
+      "properties": {
+        "sensor_id": "S003",
+        "temp_c": 37.95,
+        "humidity_pct": 44.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:00",
+        "sensor_type": "ground_station",
+        "elevation_m": 142.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.767089,
+          30.298475
+        ]
+      },
+      "properties": {
+        "sensor_id": "S004",
+        "temp_c": 33.83,
+        "humidity_pct": 53.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:49",
+        "sensor_type": "ground_station",
+        "elevation_m": 148.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.731087,
+          30.266816
+        ]
+      },
+      "properties": {
+        "sensor_id": "S005",
+        "temp_c": 36.52,
+        "humidity_pct": 45.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:03",
+        "sensor_type": "ground_station",
+        "elevation_m": 148.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.785024,
+          30.28238
+        ]
+      },
+      "properties": {
+        "sensor_id": "S006",
+        "temp_c": 35.15,
+        "humidity_pct": 53.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:27",
+        "sensor_type": "ground_station",
+        "elevation_m": 177.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.730501,
+          30.303888
+        ]
+      },
+      "properties": {
+        "sensor_id": "S007",
+        "temp_c": 35.94,
+        "humidity_pct": 54.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:57",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 139.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746985,
+          30.278775
+        ]
+      },
+      "properties": {
+        "sensor_id": "S008",
+        "temp_c": 36.97,
+        "humidity_pct": 36.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:11",
+        "sensor_type": "ground_station",
+        "elevation_m": 108.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.723229,
+          30.264831
+        ]
+      },
+      "properties": {
+        "sensor_id": "S009",
+        "temp_c": 39.26,
+        "humidity_pct": 49.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:07",
+        "sensor_type": "mobile",
+        "elevation_m": 121.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745977,
+          30.266326
+        ]
+      },
+      "properties": {
+        "sensor_id": "S010",
+        "temp_c": 39.2,
+        "humidity_pct": 35.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:58",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 159.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.725165,
+          30.27434
+        ]
+      },
+      "properties": {
+        "sensor_id": "S011",
+        "temp_c": 34.03,
+        "humidity_pct": 43.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:30",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 153.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.729165,
+          30.281214
+        ]
+      },
+      "properties": {
+        "sensor_id": "S012",
+        "temp_c": 37.79,
+        "humidity_pct": 46.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:00",
+        "sensor_type": "mobile",
+        "elevation_m": 179.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.719977,
+          30.254823
+        ]
+      },
+      "properties": {
+        "sensor_id": "S013",
+        "temp_c": 35.51,
+        "humidity_pct": 47.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:30",
+        "sensor_type": "rooftop",
+        "elevation_m": 141.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.771672,
+          30.252335
+        ]
+      },
+      "properties": {
+        "sensor_id": "S014",
+        "temp_c": 37.3,
+        "humidity_pct": 58.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:00",
+        "sensor_type": "mobile",
+        "elevation_m": 127.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.742875,
+          30.259773
+        ]
+      },
+      "properties": {
+        "sensor_id": "S015",
+        "temp_c": 37.6,
+        "humidity_pct": 39.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:17",
+        "sensor_type": "ground_station",
+        "elevation_m": 132.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.744346,
+          30.242498
+        ]
+      },
+      "properties": {
+        "sensor_id": "S016",
+        "temp_c": 33.35,
+        "humidity_pct": 55.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:29",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 156.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.761328,
+          30.279665
+        ]
+      },
+      "properties": {
+        "sensor_id": "S017",
+        "temp_c": 34.4,
+        "humidity_pct": 50.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:06",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 165.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.727936,
+          30.245877
+        ]
+      },
+      "properties": {
+        "sensor_id": "S018",
+        "temp_c": 36.5,
+        "humidity_pct": 48.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:56",
+        "sensor_type": "mobile",
+        "elevation_m": 137.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.706985,
+          30.24717
+        ]
+      },
+      "properties": {
+        "sensor_id": "S019",
+        "temp_c": 32.73,
+        "humidity_pct": 59.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:35",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 114.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76158,
+          30.263807
+        ]
+      },
+      "properties": {
+        "sensor_id": "S020",
+        "temp_c": 35.9,
+        "humidity_pct": 44.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:00",
+        "sensor_type": "rooftop",
+        "elevation_m": 132.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.770193,
+          30.274789
+        ]
+      },
+      "properties": {
+        "sensor_id": "S021",
+        "temp_c": 37.78,
+        "humidity_pct": 47.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:31",
+        "sensor_type": "mobile",
+        "elevation_m": 156.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.777847,
+          30.281748
+        ]
+      },
+      "properties": {
+        "sensor_id": "S022",
+        "temp_c": 33.63,
+        "humidity_pct": 55.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:12",
+        "sensor_type": "ground_station",
+        "elevation_m": 168.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.732265,
+          30.233373
+        ]
+      },
+      "properties": {
+        "sensor_id": "S023",
+        "temp_c": 33.83,
+        "humidity_pct": 54.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:02",
+        "sensor_type": "ground_station",
+        "elevation_m": 140.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.766302,
+          30.270006
+        ]
+      },
+      "properties": {
+        "sensor_id": "S024",
+        "temp_c": 33.8,
+        "humidity_pct": 35.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:31",
+        "sensor_type": "ground_station",
+        "elevation_m": 143.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.760347,
+          30.301806
+        ]
+      },
+      "properties": {
+        "sensor_id": "S025",
+        "temp_c": 34.2,
+        "humidity_pct": 50.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:44",
+        "sensor_type": "mobile",
+        "elevation_m": 152.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.749726,
+          30.266495
+        ]
+      },
+      "properties": {
+        "sensor_id": "S026",
+        "temp_c": 36.0,
+        "humidity_pct": 42.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:32",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 126.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.755177,
+          30.26326
+        ]
+      },
+      "properties": {
+        "sensor_id": "S027",
+        "temp_c": 38.47,
+        "humidity_pct": 37.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:28",
+        "sensor_type": "mobile",
+        "elevation_m": 161.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.719187,
+          30.284688
+        ]
+      },
+      "properties": {
+        "sensor_id": "S028",
+        "temp_c": 37.12,
+        "humidity_pct": 46.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:45",
+        "sensor_type": "mobile",
+        "elevation_m": 158.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.725724,
+          30.263288
+        ]
+      },
+      "properties": {
+        "sensor_id": "S029",
+        "temp_c": 39.17,
+        "humidity_pct": 37.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:32",
+        "sensor_type": "rooftop",
+        "elevation_m": 100.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.781443,
+          30.258775
+        ]
+      },
+      "properties": {
+        "sensor_id": "S030",
+        "temp_c": 32.5,
+        "humidity_pct": 51.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:43",
+        "sensor_type": "rooftop",
+        "elevation_m": 165.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.742656,
+          30.271967
+        ]
+      },
+      "properties": {
+        "sensor_id": "S031",
+        "temp_c": 36.66,
+        "humidity_pct": 36.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:12",
+        "sensor_type": "rooftop",
+        "elevation_m": 154.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.751469,
+          30.267208
+        ]
+      },
+      "properties": {
+        "sensor_id": "S032",
+        "temp_c": 37.38,
+        "humidity_pct": 42.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:44",
+        "sensor_type": "rooftop",
+        "elevation_m": 157.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.724841,
+          30.254372
+        ]
+      },
+      "properties": {
+        "sensor_id": "S033",
+        "temp_c": 38.39,
+        "humidity_pct": 40.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:47",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 130.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.702436,
+          30.269943
+        ]
+      },
+      "properties": {
+        "sensor_id": "S034",
+        "temp_c": 35.03,
+        "humidity_pct": 50.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:59",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 111.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74556,
+          30.281081
+        ]
+      },
+      "properties": {
+        "sensor_id": "S035",
+        "temp_c": 39.86,
+        "humidity_pct": 42.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:12",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 149.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.784641,
+          30.286919
+        ]
+      },
+      "properties": {
+        "sensor_id": "S036",
+        "temp_c": 33.21,
+        "humidity_pct": 50.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:49",
+        "sensor_type": "mobile",
+        "elevation_m": 146.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.751966,
+          30.263752
+        ]
+      },
+      "properties": {
+        "sensor_id": "S037",
+        "temp_c": 38.65,
+        "humidity_pct": 42.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:02",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 171.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.729588,
+          30.265041
+        ]
+      },
+      "properties": {
+        "sensor_id": "S038",
+        "temp_c": 39.03,
+        "humidity_pct": 49.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:21",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 147.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7293,
+          30.275443
+        ]
+      },
+      "properties": {
+        "sensor_id": "S039",
+        "temp_c": 35.88,
+        "humidity_pct": 54.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:31",
+        "sensor_type": "rooftop",
+        "elevation_m": 164.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72683,
+          30.295711
+        ]
+      },
+      "properties": {
+        "sensor_id": "S040",
+        "temp_c": 30.5,
+        "humidity_pct": 50.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:50",
+        "sensor_type": "mobile",
+        "elevation_m": 128.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.736818,
+          30.275523
+        ]
+      },
+      "properties": {
+        "sensor_id": "S041",
+        "temp_c": 38.52,
+        "humidity_pct": 41.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:18",
+        "sensor_type": "mobile",
+        "elevation_m": 167.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.752977,
+          30.293628
+        ]
+      },
+      "properties": {
+        "sensor_id": "S042",
+        "temp_c": 33.13,
+        "humidity_pct": 51.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:07",
+        "sensor_type": "rooftop",
+        "elevation_m": 109.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.764263,
+          30.246123
+        ]
+      },
+      "properties": {
+        "sensor_id": "S043",
+        "temp_c": 36.7,
+        "humidity_pct": 57.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:24",
+        "sensor_type": "ground_station",
+        "elevation_m": 142.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.724637,
+          30.24891
+        ]
+      },
+      "properties": {
+        "sensor_id": "S044",
+        "temp_c": 34.99,
+        "humidity_pct": 59.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:32",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 133.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75667,
+          30.258856
+        ]
+      },
+      "properties": {
+        "sensor_id": "S045",
+        "temp_c": 37.02,
+        "humidity_pct": 45.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:40",
+        "sensor_type": "ground_station",
+        "elevation_m": 154.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.711351,
+          30.274097
+        ]
+      },
+      "properties": {
+        "sensor_id": "S046",
+        "temp_c": 35.98,
+        "humidity_pct": 58.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:13",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 121.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.751094,
+          30.267065
+        ]
+      },
+      "properties": {
+        "sensor_id": "S047",
+        "temp_c": 34.33,
+        "humidity_pct": 34.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:04",
+        "sensor_type": "ground_station",
+        "elevation_m": 154.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.731318,
+          30.272146
+        ]
+      },
+      "properties": {
+        "sensor_id": "S048",
+        "temp_c": 40.26,
+        "humidity_pct": 45.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:26",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 130.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.724582,
+          30.260111
+        ]
+      },
+      "properties": {
+        "sensor_id": "S049",
+        "temp_c": 37.11,
+        "humidity_pct": 45.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:48",
+        "sensor_type": "ground_station",
+        "elevation_m": 151.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746697,
+          30.26621
+        ]
+      },
+      "properties": {
+        "sensor_id": "S050",
+        "temp_c": 38.9,
+        "humidity_pct": 35.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:38",
+        "sensor_type": "ground_station",
+        "elevation_m": 141.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.714111,
+          30.240059
+        ]
+      },
+      "properties": {
+        "sensor_id": "S051",
+        "temp_c": 38.42,
+        "humidity_pct": 58.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:08",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 152.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.785382,
+          30.278252
+        ]
+      },
+      "properties": {
+        "sensor_id": "S052",
+        "temp_c": 33.54,
+        "humidity_pct": 63.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:43",
+        "sensor_type": "rooftop",
+        "elevation_m": 152.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.748306,
+          30.271683
+        ]
+      },
+      "properties": {
+        "sensor_id": "S053",
+        "temp_c": 37.72,
+        "humidity_pct": 44.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:34",
+        "sensor_type": "ground_station",
+        "elevation_m": 156.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.70646,
+          30.255876
+        ]
+      },
+      "properties": {
+        "sensor_id": "S054",
+        "temp_c": 36.12,
+        "humidity_pct": 51.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:57",
+        "sensor_type": "mobile",
+        "elevation_m": 157.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.751807,
+          30.271631
+        ]
+      },
+      "properties": {
+        "sensor_id": "S055",
+        "temp_c": 38.61,
+        "humidity_pct": 43.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:54",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 182.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746101,
+          30.265181
+        ]
+      },
+      "properties": {
+        "sensor_id": "S056",
+        "temp_c": 37.49,
+        "humidity_pct": 33.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:46",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 167.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.753836,
+          30.2622
+        ]
+      },
+      "properties": {
+        "sensor_id": "S057",
+        "temp_c": 36.82,
+        "humidity_pct": 40.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:20",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 157.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.733319,
+          30.240837
+        ]
+      },
+      "properties": {
+        "sensor_id": "S058",
+        "temp_c": 34.6,
+        "humidity_pct": 56.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:51",
+        "sensor_type": "rooftop",
+        "elevation_m": 161.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.705423,
+          30.253549
+        ]
+      },
+      "properties": {
+        "sensor_id": "S059",
+        "temp_c": 34.29,
+        "humidity_pct": 53.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:53",
+        "sensor_type": "rooftop",
+        "elevation_m": 122.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.714618,
+          30.289079
+        ]
+      },
+      "properties": {
+        "sensor_id": "S060",
+        "temp_c": 36.28,
+        "humidity_pct": 49.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:49",
+        "sensor_type": "rooftop",
+        "elevation_m": 140.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746477,
+          30.264953
+        ]
+      },
+      "properties": {
+        "sensor_id": "S061",
+        "temp_c": 38.16,
+        "humidity_pct": 35.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:16",
+        "sensor_type": "ground_station",
+        "elevation_m": 186.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.789028,
+          30.261536
+        ]
+      },
+      "properties": {
+        "sensor_id": "S062",
+        "temp_c": 35.53,
+        "humidity_pct": 51.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:49",
+        "sensor_type": "mobile",
+        "elevation_m": 171.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75711,
+          30.224004
+        ]
+      },
+      "properties": {
+        "sensor_id": "S063",
+        "temp_c": 32.24,
+        "humidity_pct": 51.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:25",
+        "sensor_type": "mobile",
+        "elevation_m": 156.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76243,
+          30.287757
+        ]
+      },
+      "properties": {
+        "sensor_id": "S064",
+        "temp_c": 36.15,
+        "humidity_pct": 47.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:25",
+        "sensor_type": "rooftop",
+        "elevation_m": 120.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.777343,
+          30.28812
+        ]
+      },
+      "properties": {
+        "sensor_id": "S065",
+        "temp_c": 34.43,
+        "humidity_pct": 52.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:28",
+        "sensor_type": "mobile",
+        "elevation_m": 142.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.698572,
+          30.28555
+        ]
+      },
+      "properties": {
+        "sensor_id": "S066",
+        "temp_c": 31.21,
+        "humidity_pct": 47.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:22",
+        "sensor_type": "ground_station",
+        "elevation_m": 154.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.735707,
+          30.282516
+        ]
+      },
+      "properties": {
+        "sensor_id": "S067",
+        "temp_c": 38.69,
+        "humidity_pct": 47.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:24",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 153.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.765714,
+          30.301643
+        ]
+      },
+      "properties": {
+        "sensor_id": "S068",
+        "temp_c": 36.61,
+        "humidity_pct": 58.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:45",
+        "sensor_type": "rooftop",
+        "elevation_m": 157.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745587,
+          30.259693
+        ]
+      },
+      "properties": {
+        "sensor_id": "S069",
+        "temp_c": 36.42,
+        "humidity_pct": 36.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:33",
+        "sensor_type": "rooftop",
+        "elevation_m": 134.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.710018,
+          30.238146
+        ]
+      },
+      "properties": {
+        "sensor_id": "S070",
+        "temp_c": 32.29,
+        "humidity_pct": 57.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:31",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 151.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.758546,
+          30.281775
+        ]
+      },
+      "properties": {
+        "sensor_id": "S071",
+        "temp_c": 36.17,
+        "humidity_pct": 46.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:13",
+        "sensor_type": "mobile",
+        "elevation_m": 173.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.725724,
+          30.273482
+        ]
+      },
+      "properties": {
+        "sensor_id": "S072",
+        "temp_c": 36.5,
+        "humidity_pct": 41.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:26",
+        "sensor_type": "rooftop",
+        "elevation_m": 145.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.741646,
+          30.25782
+        ]
+      },
+      "properties": {
+        "sensor_id": "S073",
+        "temp_c": 35.42,
+        "humidity_pct": 45.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:15",
+        "sensor_type": "ground_station",
+        "elevation_m": 182.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.720926,
+          30.285669
+        ]
+      },
+      "properties": {
+        "sensor_id": "S074",
+        "temp_c": 36.97,
+        "humidity_pct": 54.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:03",
+        "sensor_type": "mobile",
+        "elevation_m": 149.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.751185,
+          30.293199
+        ]
+      },
+      "properties": {
+        "sensor_id": "S075",
+        "temp_c": 36.64,
+        "humidity_pct": 49.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:05",
+        "sensor_type": "mobile",
+        "elevation_m": 148.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7269,
+          30.224861
+        ]
+      },
+      "properties": {
+        "sensor_id": "S076",
+        "temp_c": 34.28,
+        "humidity_pct": 57.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:38",
+        "sensor_type": "mobile",
+        "elevation_m": 160.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.711889,
+          30.279497
+        ]
+      },
+      "properties": {
+        "sensor_id": "S077",
+        "temp_c": 32.0,
+        "humidity_pct": 50.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:59",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 182.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745141,
+          30.264659
+        ]
+      },
+      "properties": {
+        "sensor_id": "S078",
+        "temp_c": 37.46,
+        "humidity_pct": 38.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:12",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 162.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.701004,
+          30.285034
+        ]
+      },
+      "properties": {
+        "sensor_id": "S079",
+        "temp_c": 31.82,
+        "humidity_pct": 49.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:05",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 125.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.782609,
+          30.245362
+        ]
+      },
+      "properties": {
+        "sensor_id": "S080",
+        "temp_c": 33.9,
+        "humidity_pct": 57.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:33",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 145.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745323,
+          30.257073
+        ]
+      },
+      "properties": {
+        "sensor_id": "S081",
+        "temp_c": 37.74,
+        "humidity_pct": 43.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:22",
+        "sensor_type": "ground_station",
+        "elevation_m": 116.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.737127,
+          30.256998
+        ]
+      },
+      "properties": {
+        "sensor_id": "S082",
+        "temp_c": 37.62,
+        "humidity_pct": 30.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:18",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 149.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74347,
+          30.267187
+        ]
+      },
+      "properties": {
+        "sensor_id": "S083",
+        "temp_c": 38.65,
+        "humidity_pct": 29.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:41",
+        "sensor_type": "mobile",
+        "elevation_m": 146.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.758288,
+          30.261792
+        ]
+      },
+      "properties": {
+        "sensor_id": "S084",
+        "temp_c": 36.24,
+        "humidity_pct": 45.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:16",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 124.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.744165,
+          30.285028
+        ]
+      },
+      "properties": {
+        "sensor_id": "S085",
+        "temp_c": 35.53,
+        "humidity_pct": 46.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:11",
+        "sensor_type": "rooftop",
+        "elevation_m": 174.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.752228,
+          30.246952
+        ]
+      },
+      "properties": {
+        "sensor_id": "S086",
+        "temp_c": 38.44,
+        "humidity_pct": 46.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:47",
+        "sensor_type": "mobile",
+        "elevation_m": 168.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.766323,
+          30.266925
+        ]
+      },
+      "properties": {
+        "sensor_id": "S087",
+        "temp_c": 34.18,
+        "humidity_pct": 45.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:32",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 138.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.783682,
+          30.275285
+        ]
+      },
+      "properties": {
+        "sensor_id": "S088",
+        "temp_c": 32.43,
+        "humidity_pct": 50.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:10",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 152.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.739007,
+          30.272687
+        ]
+      },
+      "properties": {
+        "sensor_id": "S089",
+        "temp_c": 37.73,
+        "humidity_pct": 43.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:16",
+        "sensor_type": "mobile",
+        "elevation_m": 140.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.720126,
+          30.24837
+        ]
+      },
+      "properties": {
+        "sensor_id": "S090",
+        "temp_c": 34.79,
+        "humidity_pct": 38.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:39",
+        "sensor_type": "rooftop",
+        "elevation_m": 143.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.757368,
+          30.301919
+        ]
+      },
+      "properties": {
+        "sensor_id": "S091",
+        "temp_c": 32.04,
+        "humidity_pct": 52.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:54",
+        "sensor_type": "rooftop",
+        "elevation_m": 133.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.704763,
+          30.27918
+        ]
+      },
+      "properties": {
+        "sensor_id": "S092",
+        "temp_c": 31.8,
+        "humidity_pct": 54.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:43",
+        "sensor_type": "ground_station",
+        "elevation_m": 131.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743788,
+          30.271055
+        ]
+      },
+      "properties": {
+        "sensor_id": "S093",
+        "temp_c": 40.09,
+        "humidity_pct": 36.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:25",
+        "sensor_type": "mobile",
+        "elevation_m": 169.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.747363,
+          30.234306
+        ]
+      },
+      "properties": {
+        "sensor_id": "S094",
+        "temp_c": 35.53,
+        "humidity_pct": 54.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:46",
+        "sensor_type": "rooftop",
+        "elevation_m": 128.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.693571,
+          30.273619
+        ]
+      },
+      "properties": {
+        "sensor_id": "S095",
+        "temp_c": 36.39,
+        "humidity_pct": 54.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:16",
+        "sensor_type": "mobile",
+        "elevation_m": 155.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74005,
+          30.263209
+        ]
+      },
+      "properties": {
+        "sensor_id": "S096",
+        "temp_c": 39.32,
+        "humidity_pct": 39.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:51",
+        "sensor_type": "rooftop",
+        "elevation_m": 176.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.759468,
+          30.239409
+        ]
+      },
+      "properties": {
+        "sensor_id": "S097",
+        "temp_c": 32.71,
+        "humidity_pct": 58.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:48",
+        "sensor_type": "rooftop",
+        "elevation_m": 144.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.748854,
+          30.287201
+        ]
+      },
+      "properties": {
+        "sensor_id": "S098",
+        "temp_c": 33.89,
+        "humidity_pct": 48.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:30",
+        "sensor_type": "ground_station",
+        "elevation_m": 149.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.754225,
+          30.269581
+        ]
+      },
+      "properties": {
+        "sensor_id": "S099",
+        "temp_c": 39.16,
+        "humidity_pct": 37.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:22",
+        "sensor_type": "ground_station",
+        "elevation_m": 115.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.756147,
+          30.263603
+        ]
+      },
+      "properties": {
+        "sensor_id": "S100",
+        "temp_c": 36.76,
+        "humidity_pct": 46.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:04",
+        "sensor_type": "mobile",
+        "elevation_m": 131.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.751724,
+          30.276718
+        ]
+      },
+      "properties": {
+        "sensor_id": "S101",
+        "temp_c": 37.4,
+        "humidity_pct": 48.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:31",
+        "sensor_type": "mobile",
+        "elevation_m": 140.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.730569,
+          30.268233
+        ]
+      },
+      "properties": {
+        "sensor_id": "S102",
+        "temp_c": 37.16,
+        "humidity_pct": 44.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:53",
+        "sensor_type": "rooftop",
+        "elevation_m": 155.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.759995,
+          30.293817
+        ]
+      },
+      "properties": {
+        "sensor_id": "S103",
+        "temp_c": 35.83,
+        "humidity_pct": 48.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:54",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 126.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.731227,
+          30.257425
+        ]
+      },
+      "properties": {
+        "sensor_id": "S104",
+        "temp_c": 39.9,
+        "humidity_pct": 36.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:31",
+        "sensor_type": "mobile",
+        "elevation_m": 194.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.731758,
+          30.265314
+        ]
+      },
+      "properties": {
+        "sensor_id": "S105",
+        "temp_c": 37.0,
+        "humidity_pct": 39.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:30",
+        "sensor_type": "ground_station",
+        "elevation_m": 146.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743418,
+          30.249518
+        ]
+      },
+      "properties": {
+        "sensor_id": "S106",
+        "temp_c": 36.1,
+        "humidity_pct": 42.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:44",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 149.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.760631,
+          30.259378
+        ]
+      },
+      "properties": {
+        "sensor_id": "S107",
+        "temp_c": 36.82,
+        "humidity_pct": 48.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:11",
+        "sensor_type": "rooftop",
+        "elevation_m": 161.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.718668,
+          30.268909
+        ]
+      },
+      "properties": {
+        "sensor_id": "S108",
+        "temp_c": 34.84,
+        "humidity_pct": 43.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:27",
+        "sensor_type": "mobile",
+        "elevation_m": 120.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72748,
+          30.255295
+        ]
+      },
+      "properties": {
+        "sensor_id": "S109",
+        "temp_c": 37.96,
+        "humidity_pct": 38.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:52",
+        "sensor_type": "ground_station",
+        "elevation_m": 157.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.784215,
+          30.260614
+        ]
+      },
+      "properties": {
+        "sensor_id": "S110",
+        "temp_c": 31.15,
+        "humidity_pct": 51.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:09",
+        "sensor_type": "mobile",
+        "elevation_m": 147.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73979,
+          30.26188
+        ]
+      },
+      "properties": {
+        "sensor_id": "S111",
+        "temp_c": 37.87,
+        "humidity_pct": 43.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:50",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 132.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.715299,
+          30.259393
+        ]
+      },
+      "properties": {
+        "sensor_id": "S112",
+        "temp_c": 34.04,
+        "humidity_pct": 47.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:03",
+        "sensor_type": "mobile",
+        "elevation_m": 158.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76014,
+          30.253356
+        ]
+      },
+      "properties": {
+        "sensor_id": "S113",
+        "temp_c": 34.37,
+        "humidity_pct": 43.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:22",
+        "sensor_type": "ground_station",
+        "elevation_m": 166.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.733488,
+          30.253793
+        ]
+      },
+      "properties": {
+        "sensor_id": "S114",
+        "temp_c": 35.69,
+        "humidity_pct": 37.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:49",
+        "sensor_type": "rooftop",
+        "elevation_m": 131.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740093,
+          30.234221
+        ]
+      },
+      "properties": {
+        "sensor_id": "S115",
+        "temp_c": 36.94,
+        "humidity_pct": 57.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:29",
+        "sensor_type": "mobile",
+        "elevation_m": 137.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.767632,
+          30.286665
+        ]
+      },
+      "properties": {
+        "sensor_id": "S116",
+        "temp_c": 36.99,
+        "humidity_pct": 48.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:54",
+        "sensor_type": "ground_station",
+        "elevation_m": 166.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.711806,
+          30.255809
+        ]
+      },
+      "properties": {
+        "sensor_id": "S117",
+        "temp_c": 36.02,
+        "humidity_pct": 49.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:17",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 123.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.790999,
+          30.275354
+        ]
+      },
+      "properties": {
+        "sensor_id": "S118",
+        "temp_c": 33.78,
+        "humidity_pct": 52.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:26",
+        "sensor_type": "mobile",
+        "elevation_m": 151.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.777193,
+          30.263061
+        ]
+      },
+      "properties": {
+        "sensor_id": "S119",
+        "temp_c": 35.55,
+        "humidity_pct": 58.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:13",
+        "sensor_type": "mobile",
+        "elevation_m": 138.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740105,
+          30.263775
+        ]
+      },
+      "properties": {
+        "sensor_id": "S120",
+        "temp_c": 39.9,
+        "humidity_pct": 35.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:01",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 84.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72357,
+          30.289251
+        ]
+      },
+      "properties": {
+        "sensor_id": "S121",
+        "temp_c": 34.51,
+        "humidity_pct": 60.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:19",
+        "sensor_type": "mobile",
+        "elevation_m": 173.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.728324,
+          30.267409
+        ]
+      },
+      "properties": {
+        "sensor_id": "S122",
+        "temp_c": 36.41,
+        "humidity_pct": 40.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:01",
+        "sensor_type": "ground_station",
+        "elevation_m": 129.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.721051,
+          30.257467
+        ]
+      },
+      "properties": {
+        "sensor_id": "S123",
+        "temp_c": 33.06,
+        "humidity_pct": 53.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:35",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 146.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.706077,
+          30.29535
+        ]
+      },
+      "properties": {
+        "sensor_id": "S124",
+        "temp_c": 31.42,
+        "humidity_pct": 57.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:40",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 121.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.726299,
+          30.261491
+        ]
+      },
+      "properties": {
+        "sensor_id": "S125",
+        "temp_c": 36.39,
+        "humidity_pct": 34.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:19",
+        "sensor_type": "rooftop",
+        "elevation_m": 141.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.738856,
+          30.261243
+        ]
+      },
+      "properties": {
+        "sensor_id": "S126",
+        "temp_c": 39.91,
+        "humidity_pct": 39.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:22",
+        "sensor_type": "rooftop",
+        "elevation_m": 147.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.766256,
+          30.304738
+        ]
+      },
+      "properties": {
+        "sensor_id": "S127",
+        "temp_c": 33.81,
+        "humidity_pct": 58.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:51",
+        "sensor_type": "rooftop",
+        "elevation_m": 150.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76682,
+          30.237857
+        ]
+      },
+      "properties": {
+        "sensor_id": "S128",
+        "temp_c": 33.41,
+        "humidity_pct": 54.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:25",
+        "sensor_type": "mobile",
+        "elevation_m": 166.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.730531,
+          30.254125
+        ]
+      },
+      "properties": {
+        "sensor_id": "S129",
+        "temp_c": 39.12,
+        "humidity_pct": 44.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:33",
+        "sensor_type": "rooftop",
+        "elevation_m": 170.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.705378,
+          30.259987
+        ]
+      },
+      "properties": {
+        "sensor_id": "S130",
+        "temp_c": 35.46,
+        "humidity_pct": 48.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:11",
+        "sensor_type": "mobile",
+        "elevation_m": 143.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75264,
+          30.258171
+        ]
+      },
+      "properties": {
+        "sensor_id": "S131",
+        "temp_c": 39.62,
+        "humidity_pct": 39.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:09",
+        "sensor_type": "ground_station",
+        "elevation_m": 141.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743318,
+          30.268176
+        ]
+      },
+      "properties": {
+        "sensor_id": "S132",
+        "temp_c": 39.83,
+        "humidity_pct": 34.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:45",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 147.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.722269,
+          30.280154
+        ]
+      },
+      "properties": {
+        "sensor_id": "S133",
+        "temp_c": 34.74,
+        "humidity_pct": 45.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:23",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 164.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74466,
+          30.266733
+        ]
+      },
+      "properties": {
+        "sensor_id": "S134",
+        "temp_c": 40.97,
+        "humidity_pct": 39.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:03",
+        "sensor_type": "rooftop",
+        "elevation_m": 151.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.741236,
+          30.258719
+        ]
+      },
+      "properties": {
+        "sensor_id": "S135",
+        "temp_c": 36.86,
+        "humidity_pct": 44.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:07",
+        "sensor_type": "mobile",
+        "elevation_m": 119.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.709521,
+          30.234388
+        ]
+      },
+      "properties": {
+        "sensor_id": "S136",
+        "temp_c": 33.73,
+        "humidity_pct": 75.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:29",
+        "sensor_type": "ground_station",
+        "elevation_m": 93.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.737079,
+          30.237038
+        ]
+      },
+      "properties": {
+        "sensor_id": "S137",
+        "temp_c": 34.42,
+        "humidity_pct": 50.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:47",
+        "sensor_type": "ground_station",
+        "elevation_m": 166.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.709901,
+          30.266603
+        ]
+      },
+      "properties": {
+        "sensor_id": "S138",
+        "temp_c": 36.5,
+        "humidity_pct": 60.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:07",
+        "sensor_type": "mobile",
+        "elevation_m": 138.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.730634,
+          30.273354
+        ]
+      },
+      "properties": {
+        "sensor_id": "S139",
+        "temp_c": 35.94,
+        "humidity_pct": 48.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:02",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 174.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.750564,
+          30.264573
+        ]
+      },
+      "properties": {
+        "sensor_id": "S140",
+        "temp_c": 37.9,
+        "humidity_pct": 35.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:05",
+        "sensor_type": "rooftop",
+        "elevation_m": 211.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7453,
+          30.265303
+        ]
+      },
+      "properties": {
+        "sensor_id": "S141",
+        "temp_c": 35.62,
+        "humidity_pct": 31.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:08",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 125.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.692351,
+          30.27199
+        ]
+      },
+      "properties": {
+        "sensor_id": "S142",
+        "temp_c": 34.32,
+        "humidity_pct": 51.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:46",
+        "sensor_type": "mobile",
+        "elevation_m": 169.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.755969,
+          30.265397
+        ]
+      },
+      "properties": {
+        "sensor_id": "S143",
+        "temp_c": 37.48,
+        "humidity_pct": 48.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:34",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 157.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.734081,
+          30.270297
+        ]
+      },
+      "properties": {
+        "sensor_id": "S144",
+        "temp_c": 35.88,
+        "humidity_pct": 46.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:55",
+        "sensor_type": "mobile",
+        "elevation_m": 160.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.729965,
+          30.263852
+        ]
+      },
+      "properties": {
+        "sensor_id": "S145",
+        "temp_c": 37.62,
+        "humidity_pct": 41.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:46",
+        "sensor_type": "mobile",
+        "elevation_m": 150.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.764726,
+          30.287839
+        ]
+      },
+      "properties": {
+        "sensor_id": "S146",
+        "temp_c": 33.76,
+        "humidity_pct": 55.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:46",
+        "sensor_type": "ground_station",
+        "elevation_m": 136.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.725399,
+          30.249302
+        ]
+      },
+      "properties": {
+        "sensor_id": "S147",
+        "temp_c": 34.0,
+        "humidity_pct": 41.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:20",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 150.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.747547,
+          30.264059
+        ]
+      },
+      "properties": {
+        "sensor_id": "S148",
+        "temp_c": 37.29,
+        "humidity_pct": 37.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:11",
+        "sensor_type": "ground_station",
+        "elevation_m": 156.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.725834,
+          30.288067
+        ]
+      },
+      "properties": {
+        "sensor_id": "S149",
+        "temp_c": 37.63,
+        "humidity_pct": 53.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:03",
+        "sensor_type": "rooftop",
+        "elevation_m": 124.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.706399,
+          30.273098
+        ]
+      },
+      "properties": {
+        "sensor_id": "S150",
+        "temp_c": 38.95,
+        "humidity_pct": 53.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:59",
+        "sensor_type": "ground_station",
+        "elevation_m": 122.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.713453,
+          30.245765
+        ]
+      },
+      "properties": {
+        "sensor_id": "S151",
+        "temp_c": 35.29,
+        "humidity_pct": 60.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:52",
+        "sensor_type": "rooftop",
+        "elevation_m": 126.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.750025,
+          30.234765
+        ]
+      },
+      "properties": {
+        "sensor_id": "S152",
+        "temp_c": 35.2,
+        "humidity_pct": 51.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:33",
+        "sensor_type": "ground_station",
+        "elevation_m": 161.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.736474,
+          30.260682
+        ]
+      },
+      "properties": {
+        "sensor_id": "S153",
+        "temp_c": 38.31,
+        "humidity_pct": 36.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:35",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 128.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.782938,
+          30.266359
+        ]
+      },
+      "properties": {
+        "sensor_id": "S154",
+        "temp_c": 32.28,
+        "humidity_pct": 50.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:56",
+        "sensor_type": "ground_station",
+        "elevation_m": 156.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.732922,
+          30.254849
+        ]
+      },
+      "properties": {
+        "sensor_id": "S155",
+        "temp_c": 37.8,
+        "humidity_pct": 53.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:59",
+        "sensor_type": "rooftop",
+        "elevation_m": 210.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.759551,
+          30.287413
+        ]
+      },
+      "properties": {
+        "sensor_id": "S156",
+        "temp_c": 39.22,
+        "humidity_pct": 48.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:48",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 158.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.714773,
+          30.268628
+        ]
+      },
+      "properties": {
+        "sensor_id": "S157",
+        "temp_c": 34.36,
+        "humidity_pct": 44.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:23",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 167.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.736411,
+          30.250326
+        ]
+      },
+      "properties": {
+        "sensor_id": "S158",
+        "temp_c": 35.75,
+        "humidity_pct": 30.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:33",
+        "sensor_type": "mobile",
+        "elevation_m": 166.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.732133,
+          30.2641
+        ]
+      },
+      "properties": {
+        "sensor_id": "S159",
+        "temp_c": 37.33,
+        "humidity_pct": 41.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:58",
+        "sensor_type": "mobile",
+        "elevation_m": 146.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.729732,
+          30.284354
+        ]
+      },
+      "properties": {
+        "sensor_id": "S160",
+        "temp_c": 36.98,
+        "humidity_pct": 49.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:14",
+        "sensor_type": "rooftop",
+        "elevation_m": 153.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.714994,
+          30.233877
+        ]
+      },
+      "properties": {
+        "sensor_id": "S161",
+        "temp_c": 33.18,
+        "humidity_pct": 57.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:11",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 118.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.774981,
+          30.281384
+        ]
+      },
+      "properties": {
+        "sensor_id": "S162",
+        "temp_c": 31.57,
+        "humidity_pct": 47.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:02",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 156.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.761038,
+          30.269246
+        ]
+      },
+      "properties": {
+        "sensor_id": "S163",
+        "temp_c": 37.05,
+        "humidity_pct": 45.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:55",
+        "sensor_type": "mobile",
+        "elevation_m": 131.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.787272,
+          30.266644
+        ]
+      },
+      "properties": {
+        "sensor_id": "S164",
+        "temp_c": 36.55,
+        "humidity_pct": 53.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:03",
+        "sensor_type": "rooftop",
+        "elevation_m": 132.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.749842,
+          30.253724
+        ]
+      },
+      "properties": {
+        "sensor_id": "S165",
+        "temp_c": 36.62,
+        "humidity_pct": 42.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:28",
+        "sensor_type": "ground_station",
+        "elevation_m": 139.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.728261,
+          30.269471
+        ]
+      },
+      "properties": {
+        "sensor_id": "S166",
+        "temp_c": 36.3,
+        "humidity_pct": 43.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:30",
+        "sensor_type": "ground_station",
+        "elevation_m": 135.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72965,
+          30.251519
+        ]
+      },
+      "properties": {
+        "sensor_id": "S167",
+        "temp_c": 35.91,
+        "humidity_pct": 43.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:35",
+        "sensor_type": "mobile",
+        "elevation_m": 117.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740515,
+          30.237989
+        ]
+      },
+      "properties": {
+        "sensor_id": "S168",
+        "temp_c": 36.07,
+        "humidity_pct": 57.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:15",
+        "sensor_type": "ground_station",
+        "elevation_m": 147.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.770572,
+          30.256886
+        ]
+      },
+      "properties": {
+        "sensor_id": "S169",
+        "temp_c": 37.52,
+        "humidity_pct": 53.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:22",
+        "sensor_type": "mobile",
+        "elevation_m": 163.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.715216,
+          30.255731
+        ]
+      },
+      "properties": {
+        "sensor_id": "S170",
+        "temp_c": 37.05,
+        "humidity_pct": 50.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:39",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 134.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.748666,
+          30.276521
+        ]
+      },
+      "properties": {
+        "sensor_id": "S171",
+        "temp_c": 35.98,
+        "humidity_pct": 39.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:07",
+        "sensor_type": "ground_station",
+        "elevation_m": 139.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.710836,
+          30.268418
+        ]
+      },
+      "properties": {
+        "sensor_id": "S172",
+        "temp_c": 37.43,
+        "humidity_pct": 58.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:00",
+        "sensor_type": "rooftop",
+        "elevation_m": 146.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.742735,
+          30.266228
+        ]
+      },
+      "properties": {
+        "sensor_id": "S173",
+        "temp_c": 37.57,
+        "humidity_pct": 37.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:34",
+        "sensor_type": "rooftop",
+        "elevation_m": 174.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75288,
+          30.240521
+        ]
+      },
+      "properties": {
+        "sensor_id": "S174",
+        "temp_c": 38.16,
+        "humidity_pct": 50.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:24",
+        "sensor_type": "ground_station",
+        "elevation_m": 149.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.708602,
+          30.276737
+        ]
+      },
+      "properties": {
+        "sensor_id": "S175",
+        "temp_c": 35.65,
+        "humidity_pct": 51.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:04",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 172.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.772254,
+          30.251303
+        ]
+      },
+      "properties": {
+        "sensor_id": "S176",
+        "temp_c": 36.64,
+        "humidity_pct": 49.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:01",
+        "sensor_type": "rooftop",
+        "elevation_m": 169.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72344,
+          30.269219
+        ]
+      },
+      "properties": {
+        "sensor_id": "S177",
+        "temp_c": 34.67,
+        "humidity_pct": 46.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:31",
+        "sensor_type": "ground_station",
+        "elevation_m": 148.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.719114,
+          30.275947
+        ]
+      },
+      "properties": {
+        "sensor_id": "S178",
+        "temp_c": 32.03,
+        "humidity_pct": 50.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:02",
+        "sensor_type": "mobile",
+        "elevation_m": 165.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740653,
+          30.233832
+        ]
+      },
+      "properties": {
+        "sensor_id": "S179",
+        "temp_c": 34.06,
+        "humidity_pct": 61.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:40",
+        "sensor_type": "rooftop",
+        "elevation_m": 153.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.692418,
+          30.271004
+        ]
+      },
+      "properties": {
+        "sensor_id": "S180",
+        "temp_c": 30.32,
+        "humidity_pct": 59.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:56",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 178.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.737787,
+          30.291699
+        ]
+      },
+      "properties": {
+        "sensor_id": "S181",
+        "temp_c": 33.62,
+        "humidity_pct": 48.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:42",
+        "sensor_type": "mobile",
+        "elevation_m": 161.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.732683,
+          30.281821
+        ]
+      },
+      "properties": {
+        "sensor_id": "S182",
+        "temp_c": 38.99,
+        "humidity_pct": 42.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:26",
+        "sensor_type": "mobile",
+        "elevation_m": 131.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.714006,
+          30.256813
+        ]
+      },
+      "properties": {
+        "sensor_id": "S183",
+        "temp_c": 34.63,
+        "humidity_pct": 47.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:37",
+        "sensor_type": "mobile",
+        "elevation_m": 153.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.755313,
+          30.276219
+        ]
+      },
+      "properties": {
+        "sensor_id": "S184",
+        "temp_c": 36.35,
+        "humidity_pct": 36.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:27",
+        "sensor_type": "mobile",
+        "elevation_m": 135.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740146,
+          30.268863
+        ]
+      },
+      "properties": {
+        "sensor_id": "S185",
+        "temp_c": 36.23,
+        "humidity_pct": 28.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:20",
+        "sensor_type": "mobile",
+        "elevation_m": 143.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.782494,
+          30.262266
+        ]
+      },
+      "properties": {
+        "sensor_id": "S186",
+        "temp_c": 36.03,
+        "humidity_pct": 50.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:19",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 149.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.772195,
+          30.245559
+        ]
+      },
+      "properties": {
+        "sensor_id": "S187",
+        "temp_c": 31.47,
+        "humidity_pct": 55.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:11",
+        "sensor_type": "ground_station",
+        "elevation_m": 160.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.774829,
+          30.269348
+        ]
+      },
+      "properties": {
+        "sensor_id": "S188",
+        "temp_c": 35.19,
+        "humidity_pct": 56.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:38",
+        "sensor_type": "mobile",
+        "elevation_m": 150.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72368,
+          30.297949
+        ]
+      },
+      "properties": {
+        "sensor_id": "S189",
+        "temp_c": 35.01,
+        "humidity_pct": 60.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:45",
+        "sensor_type": "rooftop",
+        "elevation_m": 178.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.724659,
+          30.274214
+        ]
+      },
+      "properties": {
+        "sensor_id": "S190",
+        "temp_c": 35.5,
+        "humidity_pct": 45.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:02",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 150.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.721787,
+          30.264891
+        ]
+      },
+      "properties": {
+        "sensor_id": "S191",
+        "temp_c": 36.12,
+        "humidity_pct": 44.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:04",
+        "sensor_type": "mobile",
+        "elevation_m": 90.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.765765,
+          30.306907
+        ]
+      },
+      "properties": {
+        "sensor_id": "S192",
+        "temp_c": 34.97,
+        "humidity_pct": 55.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:55",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 166.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.774287,
+          30.271677
+        ]
+      },
+      "properties": {
+        "sensor_id": "S193",
+        "temp_c": 34.23,
+        "humidity_pct": 53.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:39",
+        "sensor_type": "ground_station",
+        "elevation_m": 121.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746139,
+          30.247086
+        ]
+      },
+      "properties": {
+        "sensor_id": "S194",
+        "temp_c": 36.49,
+        "humidity_pct": 45.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:33",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 155.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.717238,
+          30.241081
+        ]
+      },
+      "properties": {
+        "sensor_id": "S195",
+        "temp_c": 34.62,
+        "humidity_pct": 57.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:25",
+        "sensor_type": "rooftop",
+        "elevation_m": 147.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.757805,
+          30.269103
+        ]
+      },
+      "properties": {
+        "sensor_id": "S196",
+        "temp_c": 37.82,
+        "humidity_pct": 45.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:44",
+        "sensor_type": "mobile",
+        "elevation_m": 121.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.729088,
+          30.286153
+        ]
+      },
+      "properties": {
+        "sensor_id": "S197",
+        "temp_c": 36.59,
+        "humidity_pct": 50.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:25",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 174.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74194,
+          30.266702
+        ]
+      },
+      "properties": {
+        "sensor_id": "S198",
+        "temp_c": 34.7,
+        "humidity_pct": 38.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:56",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 164.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.772838,
+          30.248186
+        ]
+      },
+      "properties": {
+        "sensor_id": "S199",
+        "temp_c": 35.8,
+        "humidity_pct": 57.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:07",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 177.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746411,
+          30.264649
+        ]
+      },
+      "properties": {
+        "sensor_id": "S200",
+        "temp_c": 37.3,
+        "humidity_pct": 29.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:24",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 161.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.704126,
+          30.247238
+        ]
+      },
+      "properties": {
+        "sensor_id": "S201",
+        "temp_c": 34.44,
+        "humidity_pct": 58.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:11",
+        "sensor_type": "ground_station",
+        "elevation_m": 141.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.735308,
+          30.255035
+        ]
+      },
+      "properties": {
+        "sensor_id": "S202",
+        "temp_c": 37.18,
+        "humidity_pct": 37.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:07",
+        "sensor_type": "mobile",
+        "elevation_m": 151.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743732,
+          30.267253
+        ]
+      },
+      "properties": {
+        "sensor_id": "S203",
+        "temp_c": 38.4,
+        "humidity_pct": 29.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:38",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 150.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.712565,
+          30.269212
+        ]
+      },
+      "properties": {
+        "sensor_id": "S204",
+        "temp_c": 33.73,
+        "humidity_pct": 50.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:38",
+        "sensor_type": "ground_station",
+        "elevation_m": 150.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.762917,
+          30.24892
+        ]
+      },
+      "properties": {
+        "sensor_id": "S205",
+        "temp_c": 37.98,
+        "humidity_pct": 49.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:03",
+        "sensor_type": "rooftop",
+        "elevation_m": 144.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.732946,
+          30.304534
+        ]
+      },
+      "properties": {
+        "sensor_id": "S206",
+        "temp_c": 32.52,
+        "humidity_pct": 48.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:21",
+        "sensor_type": "ground_station",
+        "elevation_m": 169.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71164,
+          30.280353
+        ]
+      },
+      "properties": {
+        "sensor_id": "S207",
+        "temp_c": 35.71,
+        "humidity_pct": 45.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:29",
+        "sensor_type": "rooftop",
+        "elevation_m": 130.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745121,
+          30.271001
+        ]
+      },
+      "properties": {
+        "sensor_id": "S208",
+        "temp_c": 37.51,
+        "humidity_pct": 41.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:52",
+        "sensor_type": "ground_station",
+        "elevation_m": 152.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.733386,
+          30.286612
+        ]
+      },
+      "properties": {
+        "sensor_id": "S209",
+        "temp_c": 32.69,
+        "humidity_pct": 53.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:33",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 177.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.748681,
+          30.23632
+        ]
+      },
+      "properties": {
+        "sensor_id": "S210",
+        "temp_c": 34.36,
+        "humidity_pct": 50.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:30",
+        "sensor_type": "rooftop",
+        "elevation_m": 115.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.713245,
+          30.265633
+        ]
+      },
+      "properties": {
+        "sensor_id": "S211",
+        "temp_c": 37.17,
+        "humidity_pct": 41.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:33",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 118.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74266,
+          30.259128
+        ]
+      },
+      "properties": {
+        "sensor_id": "S212",
+        "temp_c": 35.42,
+        "humidity_pct": 34.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:00",
+        "sensor_type": "ground_station",
+        "elevation_m": 177.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.713331,
+          30.295305
+        ]
+      },
+      "properties": {
+        "sensor_id": "S213",
+        "temp_c": 34.64,
+        "humidity_pct": 61.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:02",
+        "sensor_type": "rooftop",
+        "elevation_m": 79.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.709134,
+          30.245984
+        ]
+      },
+      "properties": {
+        "sensor_id": "S214",
+        "temp_c": 35.07,
+        "humidity_pct": 62.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:16",
+        "sensor_type": "ground_station",
+        "elevation_m": 141.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.742815,
+          30.267077
+        ]
+      },
+      "properties": {
+        "sensor_id": "S215",
+        "temp_c": 40.47,
+        "humidity_pct": 33.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:53",
+        "sensor_type": "mobile",
+        "elevation_m": 133.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.702392,
+          30.280104
+        ]
+      },
+      "properties": {
+        "sensor_id": "S216",
+        "temp_c": 36.15,
+        "humidity_pct": 53.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:51",
+        "sensor_type": "ground_station",
+        "elevation_m": 136.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.776354,
+          30.239263
+        ]
+      },
+      "properties": {
+        "sensor_id": "S217",
+        "temp_c": 32.4,
+        "humidity_pct": 52.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:59",
+        "sensor_type": "ground_station",
+        "elevation_m": 145.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.756494,
+          30.274052
+        ]
+      },
+      "properties": {
+        "sensor_id": "S218",
+        "temp_c": 36.76,
+        "humidity_pct": 38.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:13",
+        "sensor_type": "rooftop",
+        "elevation_m": 162.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.702986,
+          30.240812
+        ]
+      },
+      "properties": {
+        "sensor_id": "S219",
+        "temp_c": 30.07,
+        "humidity_pct": 59.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:40",
+        "sensor_type": "mobile",
+        "elevation_m": 154.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.751839,
+          30.251414
+        ]
+      },
+      "properties": {
+        "sensor_id": "S220",
+        "temp_c": 33.58,
+        "humidity_pct": 39.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:45",
+        "sensor_type": "rooftop",
+        "elevation_m": 146.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71944,
+          30.300879
+        ]
+      },
+      "properties": {
+        "sensor_id": "S221",
+        "temp_c": 32.73,
+        "humidity_pct": 50.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:13",
+        "sensor_type": "rooftop",
+        "elevation_m": 177.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.725759,
+          30.27483
+        ]
+      },
+      "properties": {
+        "sensor_id": "S222",
+        "temp_c": 37.81,
+        "humidity_pct": 45.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:28",
+        "sensor_type": "ground_station",
+        "elevation_m": 163.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.728529,
+          30.27586
+        ]
+      },
+      "properties": {
+        "sensor_id": "S223",
+        "temp_c": 33.08,
+        "humidity_pct": 33.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:49",
+        "sensor_type": "rooftop",
+        "elevation_m": 154.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.707576,
+          30.29153
+        ]
+      },
+      "properties": {
+        "sensor_id": "S224",
+        "temp_c": 36.0,
+        "humidity_pct": 46.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:13",
+        "sensor_type": "ground_station",
+        "elevation_m": 119.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74313,
+          30.267017
+        ]
+      },
+      "properties": {
+        "sensor_id": "S225",
+        "temp_c": 39.2,
+        "humidity_pct": 42.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:21",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 137.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746539,
+          30.270753
+        ]
+      },
+      "properties": {
+        "sensor_id": "S226",
+        "temp_c": 38.29,
+        "humidity_pct": 29.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:36",
+        "sensor_type": "rooftop",
+        "elevation_m": 141.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.728911,
+          30.271135
+        ]
+      },
+      "properties": {
+        "sensor_id": "S227",
+        "temp_c": 36.12,
+        "humidity_pct": 33.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:17",
+        "sensor_type": "mobile",
+        "elevation_m": 143.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.738125,
+          30.270023
+        ]
+      },
+      "properties": {
+        "sensor_id": "S228",
+        "temp_c": 40.15,
+        "humidity_pct": 36.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:13",
+        "sensor_type": "rooftop",
+        "elevation_m": 134.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.757688,
+          30.301043
+        ]
+      },
+      "properties": {
+        "sensor_id": "S229",
+        "temp_c": 34.04,
+        "humidity_pct": 52.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:39",
+        "sensor_type": "rooftop",
+        "elevation_m": 144.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743765,
+          30.264995
+        ]
+      },
+      "properties": {
+        "sensor_id": "S230",
+        "temp_c": 42.07,
+        "humidity_pct": 38.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:06",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 169.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.715134,
+          30.278755
+        ]
+      },
+      "properties": {
+        "sensor_id": "S231",
+        "temp_c": 36.15,
+        "humidity_pct": 42.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:39",
+        "sensor_type": "rooftop",
+        "elevation_m": 129.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.703819,
+          30.253162
+        ]
+      },
+      "properties": {
+        "sensor_id": "S232",
+        "temp_c": 33.79,
+        "humidity_pct": 48.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:59",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 142.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.777483,
+          30.277336
+        ]
+      },
+      "properties": {
+        "sensor_id": "S233",
+        "temp_c": 34.68,
+        "humidity_pct": 56.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:30",
+        "sensor_type": "mobile",
+        "elevation_m": 159.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745523,
+          30.273307
+        ]
+      },
+      "properties": {
+        "sensor_id": "S234",
+        "temp_c": 38.88,
+        "humidity_pct": 36.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:25",
+        "sensor_type": "mobile",
+        "elevation_m": 140.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.787634,
+          30.276762
+        ]
+      },
+      "properties": {
+        "sensor_id": "S235",
+        "temp_c": 31.56,
+        "humidity_pct": 55.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:07",
+        "sensor_type": "rooftop",
+        "elevation_m": 151.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.737218,
+          30.229553
+        ]
+      },
+      "properties": {
+        "sensor_id": "S236",
+        "temp_c": 33.94,
+        "humidity_pct": 60.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:32",
+        "sensor_type": "ground_station",
+        "elevation_m": 123.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72509,
+          30.286746
+        ]
+      },
+      "properties": {
+        "sensor_id": "S237",
+        "temp_c": 37.31,
+        "humidity_pct": 52.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:25",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 157.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73046,
+          30.267985
+        ]
+      },
+      "properties": {
+        "sensor_id": "S238",
+        "temp_c": 38.4,
+        "humidity_pct": 45.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:21",
+        "sensor_type": "mobile",
+        "elevation_m": 160.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.765216,
+          30.271383
+        ]
+      },
+      "properties": {
+        "sensor_id": "S239",
+        "temp_c": 34.11,
+        "humidity_pct": 47.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:11",
+        "sensor_type": "ground_station",
+        "elevation_m": 125.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.78004,
+          30.265065
+        ]
+      },
+      "properties": {
+        "sensor_id": "S240",
+        "temp_c": 35.4,
+        "humidity_pct": 50.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:20",
+        "sensor_type": "ground_station",
+        "elevation_m": 155.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.744091,
+          30.270207
+        ]
+      },
+      "properties": {
+        "sensor_id": "S241",
+        "temp_c": 37.14,
+        "humidity_pct": 43.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:20",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 173.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745626,
+          30.265507
+        ]
+      },
+      "properties": {
+        "sensor_id": "S242",
+        "temp_c": 38.39,
+        "humidity_pct": 39.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:48",
+        "sensor_type": "mobile",
+        "elevation_m": 138.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71217,
+          30.260071
+        ]
+      },
+      "properties": {
+        "sensor_id": "S243",
+        "temp_c": 33.75,
+        "humidity_pct": 47.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:19",
+        "sensor_type": "rooftop",
+        "elevation_m": 154.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.766968,
+          30.303875
+        ]
+      },
+      "properties": {
+        "sensor_id": "S244",
+        "temp_c": 33.01,
+        "humidity_pct": 47.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:37",
+        "sensor_type": "ground_station",
+        "elevation_m": 131.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.77935,
+          30.289244
+        ]
+      },
+      "properties": {
+        "sensor_id": "S245",
+        "temp_c": 32.85,
+        "humidity_pct": 66.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:00",
+        "sensor_type": "rooftop",
+        "elevation_m": 166.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.733767,
+          30.276982
+        ]
+      },
+      "properties": {
+        "sensor_id": "S246",
+        "temp_c": 38.97,
+        "humidity_pct": 43.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:40",
+        "sensor_type": "rooftop",
+        "elevation_m": 145.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73875,
+          30.258489
+        ]
+      },
+      "properties": {
+        "sensor_id": "S247",
+        "temp_c": 35.66,
+        "humidity_pct": 41.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:53",
+        "sensor_type": "rooftop",
+        "elevation_m": 159.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.749875,
+          30.270911
+        ]
+      },
+      "properties": {
+        "sensor_id": "S248",
+        "temp_c": 40.41,
+        "humidity_pct": 38.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:00",
+        "sensor_type": "ground_station",
+        "elevation_m": 143.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.765745,
+          30.289353
+        ]
+      },
+      "properties": {
+        "sensor_id": "S249",
+        "temp_c": 34.4,
+        "humidity_pct": 54.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:41",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 148.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.778878,
+          30.292813
+        ]
+      },
+      "properties": {
+        "sensor_id": "S250",
+        "temp_c": 32.63,
+        "humidity_pct": 46.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:29",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 129.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.735477,
+          30.262073
+        ]
+      },
+      "properties": {
+        "sensor_id": "S251",
+        "temp_c": 36.94,
+        "humidity_pct": 34.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:45",
+        "sensor_type": "rooftop",
+        "elevation_m": 134.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.728007,
+          30.246419
+        ]
+      },
+      "properties": {
+        "sensor_id": "S252",
+        "temp_c": 32.43,
+        "humidity_pct": 58.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:45",
+        "sensor_type": "rooftop",
+        "elevation_m": 167.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.749979,
+          30.264869
+        ]
+      },
+      "properties": {
+        "sensor_id": "S253",
+        "temp_c": 39.14,
+        "humidity_pct": 36.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:29",
+        "sensor_type": "ground_station",
+        "elevation_m": 93.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.747739,
+          30.240093
+        ]
+      },
+      "properties": {
+        "sensor_id": "S254",
+        "temp_c": 35.53,
+        "humidity_pct": 57.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:43",
+        "sensor_type": "rooftop",
+        "elevation_m": 117.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743222,
+          30.266727
+        ]
+      },
+      "properties": {
+        "sensor_id": "S255",
+        "temp_c": 35.91,
+        "humidity_pct": 24.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:26",
+        "sensor_type": "rooftop",
+        "elevation_m": 162.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.753277,
+          30.301959
+        ]
+      },
+      "properties": {
+        "sensor_id": "S256",
+        "temp_c": 34.39,
+        "humidity_pct": 56.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:46",
+        "sensor_type": "rooftop",
+        "elevation_m": 171.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740755,
+          30.268329
+        ]
+      },
+      "properties": {
+        "sensor_id": "S257",
+        "temp_c": 39.01,
+        "humidity_pct": 45.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:18",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 147.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.730071,
+          30.286925
+        ]
+      },
+      "properties": {
+        "sensor_id": "S258",
+        "temp_c": 36.84,
+        "humidity_pct": 44.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:39",
+        "sensor_type": "rooftop",
+        "elevation_m": 147.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.774456,
+          30.26574
+        ]
+      },
+      "properties": {
+        "sensor_id": "S259",
+        "temp_c": 36.85,
+        "humidity_pct": 57.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:23",
+        "sensor_type": "mobile",
+        "elevation_m": 132.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.706748,
+          30.264976
+        ]
+      },
+      "properties": {
+        "sensor_id": "S260",
+        "temp_c": 31.78,
+        "humidity_pct": 53.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:21",
+        "sensor_type": "ground_station",
+        "elevation_m": 176.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.782311,
+          30.283586
+        ]
+      },
+      "properties": {
+        "sensor_id": "S261",
+        "temp_c": 33.82,
+        "humidity_pct": 56.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:15",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 129.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.751701,
+          30.266071
+        ]
+      },
+      "properties": {
+        "sensor_id": "S262",
+        "temp_c": 34.61,
+        "humidity_pct": 34.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:41",
+        "sensor_type": "rooftop",
+        "elevation_m": 150.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.725081,
+          30.276064
+        ]
+      },
+      "properties": {
+        "sensor_id": "S263",
+        "temp_c": 35.61,
+        "humidity_pct": 42.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:24",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 181.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7419,
+          30.260763
+        ]
+      },
+      "properties": {
+        "sensor_id": "S264",
+        "temp_c": 37.96,
+        "humidity_pct": 38.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:24",
+        "sensor_type": "rooftop",
+        "elevation_m": 179.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.730936,
+          30.307058
+        ]
+      },
+      "properties": {
+        "sensor_id": "S265",
+        "temp_c": 33.26,
+        "humidity_pct": 49.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:39",
+        "sensor_type": "rooftop",
+        "elevation_m": 112.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.731143,
+          30.261095
+        ]
+      },
+      "properties": {
+        "sensor_id": "S266",
+        "temp_c": 39.3,
+        "humidity_pct": 45.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:29",
+        "sensor_type": "mobile",
+        "elevation_m": 147.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.726593,
+          30.27234
+        ]
+      },
+      "properties": {
+        "sensor_id": "S267",
+        "temp_c": 34.43,
+        "humidity_pct": 42.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:43",
+        "sensor_type": "ground_station",
+        "elevation_m": 138.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743642,
+          30.267464
+        ]
+      },
+      "properties": {
+        "sensor_id": "S268",
+        "temp_c": 39.13,
+        "humidity_pct": 36.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:22",
+        "sensor_type": "mobile",
+        "elevation_m": 147.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.736263,
+          30.294387
+        ]
+      },
+      "properties": {
+        "sensor_id": "S269",
+        "temp_c": 34.05,
+        "humidity_pct": 56.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:38",
+        "sensor_type": "ground_station",
+        "elevation_m": 159.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.749124,
+          30.265797
+        ]
+      },
+      "properties": {
+        "sensor_id": "S270",
+        "temp_c": 38.49,
+        "humidity_pct": 35.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:57",
+        "sensor_type": "ground_station",
+        "elevation_m": 144.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.733064,
+          30.226054
+        ]
+      },
+      "properties": {
+        "sensor_id": "S271",
+        "temp_c": 32.52,
+        "humidity_pct": 51.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:49",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 115.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.775554,
+          30.256552
+        ]
+      },
+      "properties": {
+        "sensor_id": "S272",
+        "temp_c": 35.34,
+        "humidity_pct": 47.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:17",
+        "sensor_type": "ground_station",
+        "elevation_m": 136.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.724789,
+          30.307102
+        ]
+      },
+      "properties": {
+        "sensor_id": "S273",
+        "temp_c": 34.81,
+        "humidity_pct": 58.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:59",
+        "sensor_type": "mobile",
+        "elevation_m": 171.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.749029,
+          30.261034
+        ]
+      },
+      "properties": {
+        "sensor_id": "S274",
+        "temp_c": 36.61,
+        "humidity_pct": 39.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:13",
+        "sensor_type": "ground_station",
+        "elevation_m": 177.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740808,
+          30.269809
+        ]
+      },
+      "properties": {
+        "sensor_id": "S275",
+        "temp_c": 36.65,
+        "humidity_pct": 33.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:01",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 143.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.716301,
+          30.284272
+        ]
+      },
+      "properties": {
+        "sensor_id": "S276",
+        "temp_c": 37.73,
+        "humidity_pct": 48.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:09",
+        "sensor_type": "rooftop",
+        "elevation_m": 171.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.747817,
+          30.22518
+        ]
+      },
+      "properties": {
+        "sensor_id": "S277",
+        "temp_c": 32.47,
+        "humidity_pct": 53.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:34",
+        "sensor_type": "mobile",
+        "elevation_m": 151.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.742069,
+          30.310047
+        ]
+      },
+      "properties": {
+        "sensor_id": "S278",
+        "temp_c": 34.58,
+        "humidity_pct": 53.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:21",
+        "sensor_type": "rooftop",
+        "elevation_m": 127.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.744306,
+          30.271137
+        ]
+      },
+      "properties": {
+        "sensor_id": "S279",
+        "temp_c": 39.54,
+        "humidity_pct": 24.8,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:53",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 139.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.758147,
+          30.268055
+        ]
+      },
+      "properties": {
+        "sensor_id": "S280",
+        "temp_c": 37.71,
+        "humidity_pct": 48.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:42",
+        "sensor_type": "mobile",
+        "elevation_m": 144.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.720831,
+          30.291435
+        ]
+      },
+      "properties": {
+        "sensor_id": "S281",
+        "temp_c": 36.76,
+        "humidity_pct": 41.9,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:47",
+        "sensor_type": "mobile",
+        "elevation_m": 153.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.735365,
+          30.272731
+        ]
+      },
+      "properties": {
+        "sensor_id": "S282",
+        "temp_c": 37.08,
+        "humidity_pct": 33.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:24",
+        "sensor_type": "ground_station",
+        "elevation_m": 157.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.743,
+          30.223859
+        ]
+      },
+      "properties": {
+        "sensor_id": "S283",
+        "temp_c": 31.18,
+        "humidity_pct": 64.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:02",
+        "sensor_type": "rooftop",
+        "elevation_m": 101.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.728967,
+          30.300412
+        ]
+      },
+      "properties": {
+        "sensor_id": "S284",
+        "temp_c": 35.43,
+        "humidity_pct": 55.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:43",
+        "sensor_type": "mobile",
+        "elevation_m": 149.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.726374,
+          30.296908
+        ]
+      },
+      "properties": {
+        "sensor_id": "S285",
+        "temp_c": 33.51,
+        "humidity_pct": 52.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:15",
+        "sensor_type": "mobile",
+        "elevation_m": 150.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740134,
+          30.295501
+        ]
+      },
+      "properties": {
+        "sensor_id": "S286",
+        "temp_c": 38.09,
+        "humidity_pct": 45.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:29",
+        "sensor_type": "mobile",
+        "elevation_m": 153.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.748512,
+          30.26931
+        ]
+      },
+      "properties": {
+        "sensor_id": "S287",
+        "temp_c": 37.37,
+        "humidity_pct": 32.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:51",
+        "sensor_type": "mobile",
+        "elevation_m": 134.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.724227,
+          30.234598
+        ]
+      },
+      "properties": {
+        "sensor_id": "S288",
+        "temp_c": 37.14,
+        "humidity_pct": 54.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:07",
+        "sensor_type": "mobile",
+        "elevation_m": 127.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740792,
+          30.267669
+        ]
+      },
+      "properties": {
+        "sensor_id": "S289",
+        "temp_c": 42.46,
+        "humidity_pct": 37.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:09",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 156.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.726356,
+          30.275382
+        ]
+      },
+      "properties": {
+        "sensor_id": "S290",
+        "temp_c": 37.34,
+        "humidity_pct": 47.5,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:08",
+        "sensor_type": "ground_station",
+        "elevation_m": 157.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73734,
+          30.262154
+        ]
+      },
+      "properties": {
+        "sensor_id": "S291",
+        "temp_c": 35.25,
+        "humidity_pct": 40.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:11",
+        "sensor_type": "ground_station",
+        "elevation_m": 144.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.772843,
+          30.260041
+        ]
+      },
+      "properties": {
+        "sensor_id": "S292",
+        "temp_c": 34.95,
+        "humidity_pct": 57.4,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:44",
+        "sensor_type": "mobile",
+        "elevation_m": 157.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.746197,
+          30.248888
+        ]
+      },
+      "properties": {
+        "sensor_id": "S293",
+        "temp_c": 38.92,
+        "humidity_pct": 51.7,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "12:38",
+        "sensor_type": "mobile",
+        "elevation_m": 139.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.774256,
+          30.261574
+        ]
+      },
+      "properties": {
+        "sensor_id": "S294",
+        "temp_c": 38.31,
+        "humidity_pct": 55.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:22",
+        "sensor_type": "satellite_derived",
+        "elevation_m": 164.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.724542,
+          30.284813
+        ]
+      },
+      "properties": {
+        "sensor_id": "S295",
+        "temp_c": 35.89,
+        "humidity_pct": 52.2,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "13:29",
+        "sensor_type": "mobile",
+        "elevation_m": 160.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.733164,
+          30.265762
+        ]
+      },
+      "properties": {
+        "sensor_id": "S296",
+        "temp_c": 38.32,
+        "humidity_pct": 32.6,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:31",
+        "sensor_type": "mobile",
+        "elevation_m": 174.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.736793,
+          30.282624
+        ]
+      },
+      "properties": {
+        "sensor_id": "S297",
+        "temp_c": 40.11,
+        "humidity_pct": 45.1,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:02",
+        "sensor_type": "ground_station",
+        "elevation_m": 164.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.79111,
+          30.2647
+        ]
+      },
+      "properties": {
+        "sensor_id": "S298",
+        "temp_c": 35.29,
+        "humidity_pct": 66.0,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "15:32",
+        "sensor_type": "ground_station",
+        "elevation_m": 163.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.732855,
+          30.242709
+        ]
+      },
+      "properties": {
+        "sensor_id": "S299",
+        "temp_c": 36.17,
+        "humidity_pct": 42.3,
+        "measurement_date": "2025-07-15",
+        "measurement_time": "14:14",
+        "sensor_type": "ground_station",
+        "elevation_m": 166.1
+      }
+    }
+  ]
+}
